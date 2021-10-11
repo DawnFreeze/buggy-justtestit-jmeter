@@ -1,4 +1,4 @@
-##3 functional bugs observed during test development  
+## 3 functional bugs observed during test development  
   
 * Logout link in page header failing on page '/overall'
 * Logo home navigation hyperlink broken on page '/make/c4u1mqnarscc72is00e0'
