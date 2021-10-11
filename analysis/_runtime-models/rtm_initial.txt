@@ -1,0 +1,24 @@
+- runtime model v1
+- cache:nocache / 70:30
+
+[20%]: landing
+  |
+[10%]: landing
+  |      |
+  |      |_[50%]_: authenticate
+  |      |   |
+  |      |   |_[50%]_: logout
+  |      |
+  |      |_[50%]_: register
+  |          |
+  |          |_[50%]_: logout
+  |
+[60%]: landing 
+  |      |
+  |      |_[50%]_: popular_model
+  |      |
+  |      |_[50%]_: popular_make
+  |
+[10%]: landing 
+         |
+         |_[100%]_ overall_rating

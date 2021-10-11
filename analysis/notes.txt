@@ -1,0 +1,12 @@
+explicit cache controller implemented for landing page only
+ - ignore Last-Modified
+ - add cache randomizer
+
+run conditions:
+ - users must be pre-registered
+ - voting restrictions in place - reg only
+
+functional issues:
+ - logout link failing on (/overall)
+ - make page home button broken (/make/c4u1mqnarscc72is00e0)
+ - logout not terminating session server-side

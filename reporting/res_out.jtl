@@ -1,0 +1,614 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1633981857875,381,globals,200,OK,http-perfsuite-v1 1-1,text,true,,0,0,1,1,null,0,0,0
+1633981858257,64,runtime-controller,200,OK,http-perfsuite-v1 1-1,text,true,,0,0,1,1,null,0,0,0
+1633981858380,1184,get_home_nocache,200,OK,http-perfsuite-v1 1-1,text,true,,348926,5713,1,1,https://buggy.justtestit.org/,878,0,729
+1633981858380,878,get_home_nocache-0,200,OK,http-perfsuite-v1 1-1,text,true,,1257,690,1,1,https://buggy.justtestit.org/,878,0,729
+1633981859288,6,get_home_nocache-1,200,OK,http-perfsuite-v1 1-1,bin,true,,3770,705,1,1,https://buggy.justtestit.org/img/favicon.ico,6,0,0
+1633981859294,9,get_home_nocache-2,200,OK,http-perfsuite-v1 1-1,text,true,,17731,725,1,1,https://buggy.justtestit.org/css/vendor.a5856ccaff510c09debf.css,7,0,0
+1633981859478,6,get_home_nocache-3,200,OK,http-perfsuite-v1 1-1,text,true,,998,722,1,1,https://buggy.justtestit.org/css/app.a5856ccaff510c09debf.css,6,0,0
+1633981859485,9,get_home_nocache-4,200,OK,http-perfsuite-v1 1-1,bin,true,,31518,702,1,1,https://buggy.justtestit.org/img/spin.gif,6,0,0
+1633981859494,14,get_home_nocache-5,200,OK,http-perfsuite-v1 1-1,text,true,,74841,726,1,1,https://buggy.justtestit.org/js/polyfills.a5856ccaff510c09debf.js,7,0,0
+1633981859508,47,get_home_nocache-6,200,OK,http-perfsuite-v1 1-1,text,true,,174780,723,1,1,https://buggy.justtestit.org/js/vendor.a5856ccaff510c09debf.js,38,0,0
+1633981859555,9,get_home_nocache-7,200,OK,http-perfsuite-v1 1-1,text,true,,44031,720,1,1,https://buggy.justtestit.org/js/app.a5856ccaff510c09debf.js,5,0,0
+1633981859565,173,get_home_cache,200,OK,http-perfsuite-v1 1-1,text,true,,1257,690,1,1,https://buggy.justtestit.org/,173,0,0
+1633981859738,768,api_dashboard,200,OK,http-perfsuite-v1 1-1,text,true,,794,170,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/dashboard,768,0,56
+1633981858321,2125,tx-landing,200,"Number of samples in transaction : 5, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,350977,6573,1,1,null,1819,100,785
+1633981860546,338,get_make,200,OK,http-perfsuite-v1 1-1,text,true,,1252,741,1,1,https://buggy.justtestit.org/make/c4u1mqnarscc72is00e0,338,0,0
+1633981860884,473,api_make,200,OK,http-perfsuite-v1 1-1,text,true,,3977,708,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/makes/c4u1mqnarscc72is00e0,473,0,0
+1633981860546,811,tx-make,200,"Number of samples in transaction : 2, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,5229,1449,1,1,null,811,0,0
+1633981861358,340,get_model,200,OK,http-perfsuite-v1 1-1,text,true,,1252,765,1,1,https://buggy.justtestit.org/model/c4u1mqnarscc72is00e0%7Cc4u1mqnarscc72is00kg,340,0,0
+1633981861699,567,api_model,200,OK,http-perfsuite-v1 1-1,text,true,,14404,732,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/models/c4u1mqnarscc72is00e0%7Cc4u1mqnarscc72is00kg,563,0,0
+1633981861357,907,tx-model,200,"Number of samples in transaction : 2, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,15656,1497,1,1,null,903,2,0
+1633981862267,275,get_overall,200,OK,http-perfsuite-v1 1-1,text,true,,1252,723,1,1,https://buggy.justtestit.org/overall,275,0,0
+1633981862543,321,api_overall_page,200,OK,http-perfsuite-v1 1-1,text,true,,3017,637,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/models?page=1%20,320,0,0
+1633981862266,596,tx-overall,200,"Number of samples in transaction : 2, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,4269,1360,1,1,null,595,2,0
+1633981862864,39,vars-overwrite,200,OK,http-perfsuite-v1 1-1,text,true,,0,0,1,1,null,0,0,0
+1633981862904,47,get_register,200,OK,http-perfsuite-v1 1-1,text,true,,1252,765,1,1,https://buggy.justtestit.org/model/c4u1mqnarscc72is00e0%7Cc4u1mqnarscc72is00kg,47,0,0
+1633981862950,101,api_reg_users_init,200,OK,http-perfsuite-v1 1-1,text,true,,550,583,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users,101,0,0
+1633981863052,226,api_reg_users,201,Created,http-perfsuite-v1 1-1,text,true,,566,843,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users,226,0,0
+1633981863279,414,api_login_auth,200,OK,http-perfsuite-v1 1-1,text,true,,3447,766,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/oauth/token,414,0,0
+1633981863702,102,api_login_opt,200,OK,http-perfsuite-v1 1-1,text,true,,550,591,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users/current,102,0,0
+1633981863805,200,api_login_current,200,OK,http-perfsuite-v1 1-1,text,true,,628,1708,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users/current,200,0,0
+1633981863279,716,tx-login-new,200,"Number of samples in transaction : 3, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,4625,3065,1,1,null,716,10,0
+1633981862864,1129,tx-register,200,"Number of samples in transaction : 7, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,6993,5256,1,1,null,1090,13,0
+1633981864005,175,get_model,200,OK,http-perfsuite-v1 1-1,text,true,,1252,765,1,1,https://buggy.justtestit.org/model/c4u1mqnarscc72is00e0%7Cc4u1mqnarscc72is00kg,175,0,0
+1633981864181,379,api_model,200,OK,http-perfsuite-v1 1-1,text,true,,14404,732,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/models/c4u1mqnarscc72is00e0%7Cc4u1mqnarscc72is00kg,379,0,0
+1633981864561,186,api_vote_opt,200,OK,http-perfsuite-v1 1-1,text,true,,550,647,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/models/c4u1mqnarscc72is00e0%7Cc4u1mqnarscc72is00kg/vote,186,0,0
+1633981864756,204,api_vote_submit,200,OK,http-perfsuite-v1 1-1,text,true,,561,1835,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/models/c4u1mqnarscc72is00e0%7Cc4u1mqnarscc72is00kg/vote,204,0,0
+1633981864005,944,tx-vote,200,"Number of samples in transaction : 4, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,16767,3979,1,1,null,944,11,0
+1633981864960,13,globals,200,OK,http-perfsuite-v1 1-1,text,true,,0,0,1,1,null,0,0,0
+1633981864973,22,runtime-controller,200,OK,http-perfsuite-v1 1-1,text,true,,0,0,1,1,null,0,0,0
+1633981864996,146,get_home_nocache,200,OK,http-perfsuite-v1 1-1,text,true,,348879,5697,1,1,https://buggy.justtestit.org/,78,0,27
+1633981864996,78,get_home_nocache-0,200,OK,http-perfsuite-v1 1-1,text,true,,1257,688,1,1,https://buggy.justtestit.org/,78,0,27
+1633981865075,4,get_home_nocache-1,200,OK,http-perfsuite-v1 1-1,bin,true,,3770,703,1,1,https://buggy.justtestit.org/img/favicon.ico,4,0,0
+1633981865079,6,get_home_nocache-2,200,OK,http-perfsuite-v1 1-1,text,true,,17723,723,1,1,https://buggy.justtestit.org/css/vendor.a5856ccaff510c09debf.css,5,0,0
+1633981865086,3,get_home_nocache-3,200,OK,http-perfsuite-v1 1-1,text,true,,998,720,1,1,https://buggy.justtestit.org/css/app.a5856ccaff510c09debf.css,3,0,0
+1633981865089,7,get_home_nocache-4,200,OK,http-perfsuite-v1 1-1,bin,true,,31518,700,1,1,https://buggy.justtestit.org/img/spin.gif,5,0,0
+1633981865096,12,get_home_nocache-5,200,OK,http-perfsuite-v1 1-1,text,true,,74841,724,1,1,https://buggy.justtestit.org/js/polyfills.a5856ccaff510c09debf.js,5,0,0
+1633981865108,26,get_home_nocache-6,200,OK,http-perfsuite-v1 1-1,text,true,,174757,721,1,1,https://buggy.justtestit.org/js/vendor.a5856ccaff510c09debf.js,18,0,0
+1633981865134,8,get_home_nocache-7,200,OK,http-perfsuite-v1 1-1,text,true,,44015,718,1,1,https://buggy.justtestit.org/js/app.a5856ccaff510c09debf.js,5,0,0
+1633981865143,3,get_home_cache,200,OK,http-perfsuite-v1 1-1,text,true,,1250,688,1,1,https://buggy.justtestit.org/,3,0,0
+1633981865147,181,api_dashboard,200,OK,http-perfsuite-v1 1-1,text,true,,794,170,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/dashboard,181,0,22
+1633981864995,330,tx-landing,200,"Number of samples in transaction : 5, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,350923,6555,1,1,null,262,4,49
+1633981865329,6,get_make,200,OK,http-perfsuite-v1 1-1,text,true,,1252,739,1,1,https://buggy.justtestit.org/make/c4u1mqnarscc72is00e0,6,0,0
+1633981865335,385,api_make,200,OK,http-perfsuite-v1 1-1,text,true,,3977,708,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/makes/c4u1mqnarscc72is00e0,384,0,0
+1633981865329,391,tx-make,200,"Number of samples in transaction : 2, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,5229,1447,1,1,null,390,0,0
+1633981865720,5,get_model,200,OK,http-perfsuite-v1 1-1,text,true,,1252,763,1,1,https://buggy.justtestit.org/model/c4u1mqnarscc72is00e0%7Cc4u1mqnarscc72is00kg,5,0,0
+1633981865726,311,api_model,200,OK,http-perfsuite-v1 1-1,text,true,,14490,732,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/models/c4u1mqnarscc72is00e0%7Cc4u1mqnarscc72is00kg,309,0,0
+1633981865720,316,tx-model,200,"Number of samples in transaction : 2, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,15742,1495,1,1,null,314,1,0
+1633981866037,144,get_overall,200,OK,http-perfsuite-v1 1-1,text,true,,1252,721,1,1,https://buggy.justtestit.org/overall,143,0,0
+1633981866181,355,api_overall_page,200,OK,http-perfsuite-v1 1-1,text,true,,3017,635,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/models?page=1%20,355,0,0
+1633981866037,499,tx-overall,200,"Number of samples in transaction : 2, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,4269,1356,1,1,null,498,0,0
+1633981866536,9,vars-overwrite,200,OK,http-perfsuite-v1 1-1,text,true,,0,0,1,1,null,0,0,0
+1633981866545,5,get_register,200,OK,http-perfsuite-v1 1-1,text,true,,1252,763,1,1,https://buggy.justtestit.org/model/c4u1mqnarscc72is00e0%7Cc4u1mqnarscc72is00kg,5,0,0
+1633981866550,99,api_reg_users_init,200,OK,http-perfsuite-v1 1-1,text,true,,550,583,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users,99,0,0
+1633981866650,321,api_reg_users,201,Created,http-perfsuite-v1 1-1,text,true,,566,841,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users,321,0,0
+1633981866971,392,api_login_auth,200,OK,http-perfsuite-v1 1-1,text,true,,3447,764,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/oauth/token,392,0,0
+1633981867365,100,api_login_opt,200,OK,http-perfsuite-v1 1-1,text,true,,550,591,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users/current,100,0,0
+1633981867466,206,api_login_current,200,OK,http-perfsuite-v1 1-1,text,true,,628,1706,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users/current,206,0,0
+1633981866971,698,tx-login-new,200,"Number of samples in transaction : 3, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,4625,3061,1,1,null,698,3,0
+1633981866536,1132,tx-register,200,"Number of samples in transaction : 7, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,6993,5248,1,1,null,1123,4,0
+1633981867673,179,get_model,200,OK,http-perfsuite-v1 1-1,text,true,,1252,763,1,1,https://buggy.justtestit.org/model/c4u1mqnarscc72is00e0%7Cc4u1mqnarscc72is00kg,179,0,0
+1633981867853,398,api_model,200,OK,http-perfsuite-v1 1-1,text,true,,14490,732,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/models/c4u1mqnarscc72is00e0%7Cc4u1mqnarscc72is00kg,398,0,0
+1633981868251,186,api_vote_opt,200,OK,http-perfsuite-v1 1-1,text,true,,550,647,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/models/c4u1mqnarscc72is00e0%7Cc4u1mqnarscc72is00kg/vote,186,0,0
+1633981868438,101,api_vote_submit,200,OK,http-perfsuite-v1 1-1,text,true,,561,1833,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/models/c4u1mqnarscc72is00e0%7Cc4u1mqnarscc72is00kg/vote,101,0,0
+1633981867673,864,tx-vote,200,"Number of samples in transaction : 4, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,16853,3975,1,1,null,864,2,0
+1633981868539,11,globals,200,OK,http-perfsuite-v1 1-1,text,true,,0,0,1,1,null,0,0,0
+1633981868550,18,runtime-controller,200,OK,http-perfsuite-v1 1-1,text,true,,0,0,1,1,null,0,0,0
+1633981868568,229,get_home_cache,200,OK,http-perfsuite-v1 1-1,text,true,,1257,690,1,1,https://buggy.justtestit.org/,229,0,55
+1633981868797,123,api_dashboard,200,OK,http-perfsuite-v1 1-1,text,true,,794,170,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/dashboard,123,0,33
+1633981868568,352,tx-landing,200,"Number of samples in transaction : 4, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,2051,860,1,1,null,352,0,88
+1633981868921,5,get_make,200,OK,http-perfsuite-v1 1-1,text,true,,1252,741,1,1,https://buggy.justtestit.org/make/c4u1mqnarscc72is00e0,5,0,0
+1633981868926,333,api_make,200,OK,http-perfsuite-v1 1-1,text,true,,3977,708,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/makes/c4u1mqnarscc72is00e0,331,0,0
+1633981868920,338,tx-make,200,"Number of samples in transaction : 2, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,5229,1449,1,1,null,336,2,0
+1633981869260,54,get_model,200,OK,http-perfsuite-v1 1-1,text,true,,1252,765,1,1,https://buggy.justtestit.org/model/c4u1mqnarscc72is00e0%7Cc4u1mqnarscc72is00kg,53,0,0
+1633981869315,366,api_model,200,OK,http-perfsuite-v1 1-1,text,true,,14576,732,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/models/c4u1mqnarscc72is00e0%7Cc4u1mqnarscc72is00kg,361,0,0
+1633981869260,420,tx-model,200,"Number of samples in transaction : 2, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,15828,1497,1,1,null,414,1,0
+1633981869681,8,get_overall,200,OK,http-perfsuite-v1 1-1,text,true,,1252,723,1,1,https://buggy.justtestit.org/overall,8,0,0
+1633981869690,410,api_overall_page,200,OK,http-perfsuite-v1 1-1,text,true,,3017,637,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/models?page=1%20,410,0,0
+1633981869681,418,tx-overall,200,"Number of samples in transaction : 2, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,4269,1360,1,1,null,418,2,0
+1633981870101,8,vars-overwrite,200,OK,http-perfsuite-v1 1-1,text,true,,0,0,1,1,null,0,0,0
+1633981870109,176,get_register,200,OK,http-perfsuite-v1 1-1,text,true,,1252,765,1,1,https://buggy.justtestit.org/model/c4u1mqnarscc72is00e0%7Cc4u1mqnarscc72is00kg,176,0,0
+1633981870285,113,api_reg_users_init,200,OK,http-perfsuite-v1 1-1,text,true,,550,583,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users,113,0,0
+1633981870399,278,api_reg_users,201,Created,http-perfsuite-v1 1-1,text,true,,566,843,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users,277,0,0
+1633981870677,374,api_login_auth,200,OK,http-perfsuite-v1 1-1,text,true,,3447,766,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/oauth/token,373,0,0
+1633981871051,104,api_login_opt,200,OK,http-perfsuite-v1 1-1,text,true,,550,591,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users/current,104,0,0
+1633981871156,167,api_login_current,200,OK,http-perfsuite-v1 1-1,text,true,,628,1708,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users/current,167,0,0
+1633981870677,645,tx-login-new,200,"Number of samples in transaction : 3, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,4625,3065,1,1,null,644,1,0
+1633981870101,1220,tx-register,200,"Number of samples in transaction : 7, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,6993,5256,1,1,null,1210,2,0
+1633981871325,19,globals,200,OK,http-perfsuite-v1 1-1,text,true,,0,0,1,1,null,0,0,0
+1633981871344,20,runtime-controller,200,OK,http-perfsuite-v1 1-1,text,true,,0,0,1,1,null,0,0,0
+1633981871364,283,get_home_nocache,200,OK,http-perfsuite-v1 1-1,text,true,,348879,5713,1,1,https://buggy.justtestit.org/,203,0,28
+1633981871364,203,get_home_nocache-0,200,OK,http-perfsuite-v1 1-1,text,true,,1257,690,1,1,https://buggy.justtestit.org/,203,0,28
+1633981871567,5,get_home_nocache-1,200,OK,http-perfsuite-v1 1-1,bin,true,,3770,705,1,1,https://buggy.justtestit.org/img/favicon.ico,5,0,0
+1633981871572,6,get_home_nocache-2,200,OK,http-perfsuite-v1 1-1,text,true,,17723,725,1,1,https://buggy.justtestit.org/css/vendor.a5856ccaff510c09debf.css,6,0,0
+1633981871579,4,get_home_nocache-3,200,OK,http-perfsuite-v1 1-1,text,true,,998,722,1,1,https://buggy.justtestit.org/css/app.a5856ccaff510c09debf.css,4,0,0
+1633981871583,8,get_home_nocache-4,200,OK,http-perfsuite-v1 1-1,bin,true,,31518,702,1,1,https://buggy.justtestit.org/img/spin.gif,6,0,0
+1633981871591,14,get_home_nocache-5,200,OK,http-perfsuite-v1 1-1,text,true,,74841,726,1,1,https://buggy.justtestit.org/js/polyfills.a5856ccaff510c09debf.js,7,0,0
+1633981871605,30,get_home_nocache-6,200,OK,http-perfsuite-v1 1-1,text,true,,174757,723,1,1,https://buggy.justtestit.org/js/vendor.a5856ccaff510c09debf.js,21,0,0
+1633981871635,12,get_home_nocache-7,200,OK,http-perfsuite-v1 1-1,text,true,,44015,720,1,1,https://buggy.justtestit.org/js/app.a5856ccaff510c09debf.js,8,0,0
+1633981871647,5,get_home_cache,200,OK,http-perfsuite-v1 1-1,text,true,,1250,690,1,1,https://buggy.justtestit.org/,5,0,0
+1633981871652,169,api_dashboard,200,OK,http-perfsuite-v1 1-1,text,true,,794,170,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/dashboard,169,0,27
+1633981871364,457,tx-landing,200,"Number of samples in transaction : 5, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,350923,6573,1,1,null,377,1,55
+1633981871822,351,api_login_auth,200,OK,http-perfsuite-v1 1-1,text,true,,3445,759,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/oauth/token,351,0,0
+1633981872174,101,api_login_opt,200,OK,http-perfsuite-v1 1-1,text,true,,550,591,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users/current,101,0,0
+1633981872275,168,api_login_current,200,OK,http-perfsuite-v1 1-1,text,true,,618,1707,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users/current,168,0,0
+1633981871822,620,tx-login-existing,200,"Number of samples in transaction : 3, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,4613,3057,1,1,null,620,2,0
+1633981872444,180,get_make,200,OK,http-perfsuite-v1 1-1,text,true,,1252,741,1,1,https://buggy.justtestit.org/make/c4u1mqnarscc72is00e0,180,0,0
+1633981872625,356,api_make,200,OK,http-perfsuite-v1 1-1,text,true,,3977,708,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/makes/c4u1mqnarscc72is00e0,356,0,0
+1633981872444,536,tx-make,200,"Number of samples in transaction : 2, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,5229,1449,1,1,null,536,1,0
+1633981872981,6,get_model,200,OK,http-perfsuite-v1 1-1,text,true,,1252,765,1,1,https://buggy.justtestit.org/model/c4u1mqnarscc72is00e0%7Cc4u1mqnarscc72is00kg,6,0,0
+1633981872987,387,api_model,200,OK,http-perfsuite-v1 1-1,text,true,,14576,732,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/models/c4u1mqnarscc72is00e0%7Cc4u1mqnarscc72is00kg,385,0,0
+1633981872981,393,tx-model,200,"Number of samples in transaction : 2, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,15828,1497,1,1,null,391,0,0
+1633981873374,171,get_overall,200,OK,http-perfsuite-v1 1-1,text,true,,1252,723,1,1,https://buggy.justtestit.org/overall,171,0,0
+1633981873546,398,api_overall_page,200,OK,http-perfsuite-v1 1-1,text,true,,3017,637,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/models?page=1%20,397,0,0
+1633981873374,569,tx-overall,200,"Number of samples in transaction : 2, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,4269,1360,1,1,null,568,1,0
+1633981873945,29,globals,200,OK,http-perfsuite-v1 1-1,text,true,,0,0,1,1,null,0,0,0
+1633981873974,22,runtime-controller,200,OK,http-perfsuite-v1 1-1,text,true,,0,0,1,1,null,0,0,0
+1633981873997,272,get_home_nocache,200,OK,http-perfsuite-v1 1-1,text,true,,348879,5713,1,1,https://buggy.justtestit.org/,202,0,28
+1633981873997,202,get_home_nocache-0,200,OK,http-perfsuite-v1 1-1,text,true,,1257,690,1,1,https://buggy.justtestit.org/,202,0,28
+1633981874200,4,get_home_nocache-1,200,OK,http-perfsuite-v1 1-1,bin,true,,3770,705,1,1,https://buggy.justtestit.org/img/favicon.ico,4,0,0
+1633981874204,6,get_home_nocache-2,200,OK,http-perfsuite-v1 1-1,text,true,,17723,725,1,1,https://buggy.justtestit.org/css/vendor.a5856ccaff510c09debf.css,5,0,0
+1633981874210,4,get_home_nocache-3,200,OK,http-perfsuite-v1 1-1,text,true,,998,722,1,1,https://buggy.justtestit.org/css/app.a5856ccaff510c09debf.css,4,0,0
+1633981874214,7,get_home_nocache-4,200,OK,http-perfsuite-v1 1-1,bin,true,,31518,702,1,1,https://buggy.justtestit.org/img/spin.gif,6,0,0
+1633981874221,12,get_home_nocache-5,200,OK,http-perfsuite-v1 1-1,text,true,,74841,726,1,1,https://buggy.justtestit.org/js/polyfills.a5856ccaff510c09debf.js,6,0,0
+1633981874233,27,get_home_nocache-6,200,OK,http-perfsuite-v1 1-1,text,true,,174757,723,1,1,https://buggy.justtestit.org/js/vendor.a5856ccaff510c09debf.js,18,0,0
+1633981874260,9,get_home_nocache-7,200,OK,http-perfsuite-v1 1-1,text,true,,44015,720,1,1,https://buggy.justtestit.org/js/app.a5856ccaff510c09debf.js,5,0,0
+1633981874269,111,api_dashboard,200,OK,http-perfsuite-v1 1-1,text,true,,794,170,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/dashboard,111,0,22
+1633981873997,383,tx-landing,200,"Number of samples in transaction : 4, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,349673,5883,1,1,null,313,1,50
+1633981874381,394,api_login_auth,200,OK,http-perfsuite-v1 1-1,text,true,,3438,762,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/oauth/token,394,0,0
+1633981874776,43,api_login_opt,200,OK,http-perfsuite-v1 1-1,text,true,,550,591,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users/current,43,0,0
+1633981874819,136,api_login_current,200,OK,http-perfsuite-v1 1-1,text,true,,614,1704,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users/current,136,0,0
+1633981874381,573,tx-login-existing,200,"Number of samples in transaction : 3, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,4602,3057,1,1,null,573,2,0
+1633981874956,49,get_make,200,OK,http-perfsuite-v1 1-1,text,true,,1252,741,1,1,https://buggy.justtestit.org/make/c4u1mqnarscc72is00e0,49,0,0
+1633981875006,375,api_make,200,OK,http-perfsuite-v1 1-1,text,true,,3977,708,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/makes/c4u1mqnarscc72is00e0,374,0,0
+1633981874956,424,tx-make,200,"Number of samples in transaction : 2, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,5229,1449,1,1,null,423,1,0
+1633981875381,147,get_model,200,OK,http-perfsuite-v1 1-1,text,true,,1252,765,1,1,https://buggy.justtestit.org/model/c4u1mqnarscc72is00e0%7Cc4u1mqnarscc72is00kg,146,0,0
+1633981875528,261,api_model,200,OK,http-perfsuite-v1 1-1,text,true,,14576,732,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/models/c4u1mqnarscc72is00e0%7Cc4u1mqnarscc72is00kg,260,0,0
+1633981875381,408,tx-model,200,"Number of samples in transaction : 2, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,15828,1497,1,1,null,406,1,0
+1633981875790,4,get_overall,200,OK,http-perfsuite-v1 1-1,text,true,,1252,723,1,1,https://buggy.justtestit.org/overall,4,0,0
+1633981875795,326,api_overall_page,200,OK,http-perfsuite-v1 1-1,text,true,,3017,637,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/models?page=1%20,326,0,0
+1633981875790,330,tx-overall,200,"Number of samples in transaction : 2, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,4269,1360,1,1,null,330,1,0
+1633981876122,9,globals,200,OK,http-perfsuite-v1 1-1,text,true,,0,0,1,1,null,0,0,0
+1633981876131,16,runtime-controller,200,OK,http-perfsuite-v1 1-1,text,true,,0,0,1,1,null,0,0,0
+1633981876147,277,get_home_nocache,200,OK,http-perfsuite-v1 1-1,text,true,,348918,5713,1,1,https://buggy.justtestit.org/,195,0,40
+1633981876147,195,get_home_nocache-0,200,OK,http-perfsuite-v1 1-1,text,true,,1257,690,1,1,https://buggy.justtestit.org/,195,0,40
+1633981876342,4,get_home_nocache-1,200,OK,http-perfsuite-v1 1-1,bin,true,,3770,705,1,1,https://buggy.justtestit.org/img/favicon.ico,4,0,0
+1633981876346,7,get_home_nocache-2,200,OK,http-perfsuite-v1 1-1,text,true,,17723,725,1,1,https://buggy.justtestit.org/css/vendor.a5856ccaff510c09debf.css,7,0,0
+1633981876354,4,get_home_nocache-3,200,OK,http-perfsuite-v1 1-1,text,true,,998,722,1,1,https://buggy.justtestit.org/css/app.a5856ccaff510c09debf.css,4,0,0
+1633981876358,7,get_home_nocache-4,200,OK,http-perfsuite-v1 1-1,bin,true,,31518,702,1,1,https://buggy.justtestit.org/img/spin.gif,6,0,0
+1633981876365,13,get_home_nocache-5,200,OK,http-perfsuite-v1 1-1,text,true,,74849,726,1,1,https://buggy.justtestit.org/js/polyfills.a5856ccaff510c09debf.js,6,0,0
+1633981876378,37,get_home_nocache-6,200,OK,http-perfsuite-v1 1-1,text,true,,174788,723,1,1,https://buggy.justtestit.org/js/vendor.a5856ccaff510c09debf.js,27,0,0
+1633981876415,9,get_home_nocache-7,200,OK,http-perfsuite-v1 1-1,text,true,,44015,720,1,1,https://buggy.justtestit.org/js/app.a5856ccaff510c09debf.js,5,0,0
+1633981876424,4,get_home_cache,200,OK,http-perfsuite-v1 1-1,text,true,,1250,690,1,1,https://buggy.justtestit.org/,4,0,0
+1633981876429,191,api_dashboard,200,OK,http-perfsuite-v1 1-1,text,true,,794,170,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/dashboard,191,0,22
+1633981876147,472,tx-landing,200,"Number of samples in transaction : 5, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,350962,6573,1,1,null,390,2,62
+1633981876621,348,api_login_auth,200,OK,http-perfsuite-v1 1-1,text,true,,3449,760,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/oauth/token,348,0,0
+1633981876969,42,api_login_opt,200,OK,http-perfsuite-v1 1-1,text,true,,550,591,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users/current,42,0,0
+1633981877011,136,api_login_current,200,OK,http-perfsuite-v1 1-1,text,true,,621,1709,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users/current,136,0,0
+1633981876621,526,tx-login-existing,200,"Number of samples in transaction : 3, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,4620,3060,1,1,null,526,0,0
+1633981877147,44,get_make,200,OK,http-perfsuite-v1 1-1,text,true,,1252,741,1,1,https://buggy.justtestit.org/make/c4u1mqnarscc72is00e0,44,0,0
+1633981877191,370,api_make,200,OK,http-perfsuite-v1 1-1,text,true,,3977,708,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/makes/c4u1mqnarscc72is00e0,369,0,0
+1633981877147,414,tx-make,200,"Number of samples in transaction : 2, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,5229,1449,1,1,null,413,0,0
+1633981877561,6,get_model,200,OK,http-perfsuite-v1 1-1,text,true,,1252,765,1,1,https://buggy.justtestit.org/model/c4u1mqnarscc72is00e0%7Cc4u1mqnarscc72is00kg,6,0,0
+1633981877567,365,api_model,200,OK,http-perfsuite-v1 1-1,text,true,,14576,732,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/models/c4u1mqnarscc72is00e0%7Cc4u1mqnarscc72is00kg,364,0,0
+1633981877561,371,tx-model,200,"Number of samples in transaction : 2, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,15828,1497,1,1,null,370,0,0
+1633981877933,4,get_overall,200,OK,http-perfsuite-v1 1-1,text,true,,1252,723,1,1,https://buggy.justtestit.org/overall,4,0,0
+1633981877937,382,api_overall_page,200,OK,http-perfsuite-v1 1-1,text,true,,3017,637,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/models?page=1%20,381,0,0
+1633981877932,386,tx-overall,200,"Number of samples in transaction : 2, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,4269,1360,1,1,null,385,2,0
+1633981878320,27,vars-overwrite,200,OK,http-perfsuite-v1 1-1,text,true,,0,0,1,1,null,0,0,0
+1633981878347,48,get_register,200,OK,http-perfsuite-v1 1-1,text,true,,1252,765,1,1,https://buggy.justtestit.org/model/c4u1mqnarscc72is00e0%7Cc4u1mqnarscc72is00kg,48,0,0
+1633981878395,113,api_reg_users_init,200,OK,http-perfsuite-v1 1-1,text,true,,550,583,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users,113,0,0
+1633981878508,396,api_reg_users,201,Created,http-perfsuite-v1 1-1,text,true,,566,843,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users,396,0,0
+1633981878904,356,api_login_auth,200,OK,http-perfsuite-v1 1-1,text,true,,3447,766,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/oauth/token,356,0,0
+1633981879261,46,api_login_opt,200,OK,http-perfsuite-v1 1-1,text,true,,550,591,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users/current,46,0,0
+1633981879308,201,api_login_current,200,OK,http-perfsuite-v1 1-1,text,true,,628,1708,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users/current,200,0,0
+1633981878904,603,tx-login-new,200,"Number of samples in transaction : 3, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,4625,3065,1,1,null,602,2,0
+1633981878320,1187,tx-register,200,"Number of samples in transaction : 7, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,6993,5256,1,1,null,1159,2,0
+1633981879512,27,globals,200,OK,http-perfsuite-v1 1-1,text,true,,0,0,1,1,null,0,0,0
+1633981879539,19,runtime-controller,200,OK,http-perfsuite-v1 1-1,text,true,,0,0,1,1,null,0,0,0
+1633981879559,74,get_home_cache,200,OK,http-perfsuite-v1 1-1,text,true,,1257,690,1,1,https://buggy.justtestit.org/,74,0,27
+1633981879633,168,api_dashboard,200,OK,http-perfsuite-v1 1-1,text,true,,794,170,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/dashboard,168,0,22
+1633981879558,242,tx-landing,200,"Number of samples in transaction : 4, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,2051,860,1,1,null,242,1,49
+1633981879801,347,api_login_auth,200,OK,http-perfsuite-v1 1-1,text,true,,3445,759,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/oauth/token,347,0,0
+1633981880149,101,api_login_opt,200,OK,http-perfsuite-v1 1-1,text,true,,550,591,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users/current,101,0,0
+1633981880251,65,api_login_current,200,OK,http-perfsuite-v1 1-1,text,true,,618,1707,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users/current,65,0,0
+1633981879801,513,tx-login-existing,200,"Number of samples in transaction : 3, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,4613,3057,1,1,null,513,2,0
+1633981880316,49,get_make,200,OK,http-perfsuite-v1 1-1,text,true,,1252,741,1,1,https://buggy.justtestit.org/make/c4u1mqnarscc72is00e0,49,0,0
+1633981880366,350,api_make,200,OK,http-perfsuite-v1 1-1,text,true,,3977,708,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/makes/c4u1mqnarscc72is00e0,350,0,0
+1633981880316,399,tx-make,200,"Number of samples in transaction : 2, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,5229,1449,1,1,null,399,1,0
+1633981880717,5,get_model,200,OK,http-perfsuite-v1 1-1,text,true,,1252,765,1,1,https://buggy.justtestit.org/model/c4u1mqnarscc72is00e0%7Cc4u1mqnarscc72is00kg,5,0,0
+1633981880723,307,api_model,200,OK,http-perfsuite-v1 1-1,text,true,,14576,732,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/models/c4u1mqnarscc72is00e0%7Cc4u1mqnarscc72is00kg,306,0,0
+1633981880716,312,tx-model,200,"Number of samples in transaction : 2, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,15828,1497,1,1,null,311,3,0
+1633981881031,159,get_overall,200,OK,http-perfsuite-v1 1-1,text,true,,1252,723,1,1,https://buggy.justtestit.org/overall,159,0,0
+1633981881191,406,api_overall_page,200,OK,http-perfsuite-v1 1-1,text,true,,3017,637,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/models?page=1%20,406,0,0
+1633981881031,565,tx-overall,200,"Number of samples in transaction : 2, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,4269,1360,1,1,null,565,1,0
+1633981881598,9,globals,200,OK,http-perfsuite-v1 1-1,text,true,,0,0,1,1,null,0,0,0
+1633981881607,16,runtime-controller,200,OK,http-perfsuite-v1 1-1,text,true,,0,0,1,1,null,0,0,0
+1633981881623,52,get_home_cache,200,OK,http-perfsuite-v1 1-1,text,true,,1250,690,1,1,https://buggy.justtestit.org/,52,0,47
+1633981881676,185,api_dashboard,200,OK,http-perfsuite-v1 1-1,text,true,,794,170,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/dashboard,185,0,48
+1633981881623,237,tx-landing,200,"Number of samples in transaction : 4, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,2044,860,1,1,null,237,3,95
+1633981881863,9,get_make,200,OK,http-perfsuite-v1 1-1,text,true,,1252,741,1,1,https://buggy.justtestit.org/make/c4u1mqnarscc72is00e0,9,0,0
+1633981881873,367,api_make,200,OK,http-perfsuite-v1 1-1,text,true,,3977,708,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/makes/c4u1mqnarscc72is00e0,367,0,0
+1633981881863,376,tx-make,200,"Number of samples in transaction : 2, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,5229,1449,1,1,null,376,1,0
+1633981882241,173,get_model,200,OK,http-perfsuite-v1 1-1,text,true,,1252,765,1,1,https://buggy.justtestit.org/model/c4u1mqnarscc72is00e0%7Cc4u1mqnarscc72is00kg,173,0,0
+1633981882415,239,api_model,200,OK,http-perfsuite-v1 1-1,text,true,,14576,732,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/models/c4u1mqnarscc72is00e0%7Cc4u1mqnarscc72is00kg,237,0,0
+1633981882240,412,tx-model,200,"Number of samples in transaction : 2, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,15828,1497,1,1,null,410,2,0
+1633981882654,6,get_overall,200,OK,http-perfsuite-v1 1-1,text,true,,1252,723,1,1,https://buggy.justtestit.org/overall,6,0,0
+1633981882660,360,api_overall_page,200,OK,http-perfsuite-v1 1-1,text,true,,3017,637,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/models?page=1%20,360,0,0
+1633981882654,366,tx-overall,200,"Number of samples in transaction : 2, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,4269,1360,1,1,null,366,1,0
+1633981883021,13,vars-overwrite,200,OK,http-perfsuite-v1 1-1,text,true,,0,0,1,1,null,0,0,0
+1633981883034,53,get_register,200,OK,http-perfsuite-v1 1-1,text,true,,1252,765,1,1,https://buggy.justtestit.org/model/c4u1mqnarscc72is00e0%7Cc4u1mqnarscc72is00kg,53,0,0
+1633981883088,44,api_reg_users_init,200,OK,http-perfsuite-v1 1-1,text,true,,550,583,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users,44,0,0
+1633981883132,293,api_reg_users,201,Created,http-perfsuite-v1 1-1,text,true,,566,843,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users,293,0,0
+1633981883425,386,api_login_auth,200,OK,http-perfsuite-v1 1-1,text,true,,3447,766,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/oauth/token,386,0,0
+1633981883812,102,api_login_opt,200,OK,http-perfsuite-v1 1-1,text,true,,550,591,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users/current,102,0,0
+1633981883915,170,api_login_current,200,OK,http-perfsuite-v1 1-1,text,true,,628,1708,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users/current,170,0,0
+1633981883425,658,tx-login-new,200,"Number of samples in transaction : 3, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,4625,3065,1,1,null,658,2,0
+1633981883021,1061,tx-register,200,"Number of samples in transaction : 7, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,6993,5256,1,1,null,1048,3,0
+1633981884085,9,globals,200,OK,http-perfsuite-v1 1-1,text,true,,0,0,1,1,null,0,0,0
+1633981884094,14,runtime-controller,200,OK,http-perfsuite-v1 1-1,text,true,,0,0,1,1,null,0,0,0
+1633981884108,236,get_home_nocache,200,OK,http-perfsuite-v1 1-1,text,true,,348879,5713,1,1,https://buggy.justtestit.org/,170,0,25
+1633981884108,170,get_home_nocache-0,200,OK,http-perfsuite-v1 1-1,text,true,,1257,690,1,1,https://buggy.justtestit.org/,170,0,25
+1633981884279,3,get_home_nocache-1,200,OK,http-perfsuite-v1 1-1,bin,true,,3770,705,1,1,https://buggy.justtestit.org/img/favicon.ico,3,0,0
+1633981884282,6,get_home_nocache-2,200,OK,http-perfsuite-v1 1-1,text,true,,17723,725,1,1,https://buggy.justtestit.org/css/vendor.a5856ccaff510c09debf.css,5,0,0
+1633981884288,3,get_home_nocache-3,200,OK,http-perfsuite-v1 1-1,text,true,,998,722,1,1,https://buggy.justtestit.org/css/app.a5856ccaff510c09debf.css,3,0,0
+1633981884291,7,get_home_nocache-4,200,OK,http-perfsuite-v1 1-1,bin,true,,31518,702,1,1,https://buggy.justtestit.org/img/spin.gif,6,0,0
+1633981884298,12,get_home_nocache-5,200,OK,http-perfsuite-v1 1-1,text,true,,74841,726,1,1,https://buggy.justtestit.org/js/polyfills.a5856ccaff510c09debf.js,5,0,0
+1633981884310,26,get_home_nocache-6,200,OK,http-perfsuite-v1 1-1,text,true,,174757,723,1,1,https://buggy.justtestit.org/js/vendor.a5856ccaff510c09debf.js,17,0,0
+1633981884336,8,get_home_nocache-7,200,OK,http-perfsuite-v1 1-1,text,true,,44015,720,1,1,https://buggy.justtestit.org/js/app.a5856ccaff510c09debf.js,5,0,0
+1633981884344,173,get_home_cache,200,OK,http-perfsuite-v1 1-1,text,true,,1257,690,1,1,https://buggy.justtestit.org/,173,0,0
+1633981884517,167,api_dashboard,200,OK,http-perfsuite-v1 1-1,text,true,,794,170,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/dashboard,167,0,21
+1633981884108,576,tx-landing,200,"Number of samples in transaction : 5, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,350930,6573,1,1,null,510,1,46
+1633981884686,413,api_login_auth,200,OK,http-perfsuite-v1 1-1,text,true,,3449,760,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/oauth/token,411,0,0
+1633981885100,102,api_login_opt,200,OK,http-perfsuite-v1 1-1,text,true,,550,591,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users/current,102,0,0
+1633981885202,74,api_login_current,200,OK,http-perfsuite-v1 1-1,text,true,,621,1709,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users/current,74,0,0
+1633981884685,589,tx-login-existing,200,"Number of samples in transaction : 3, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,4620,3060,1,1,null,587,2,0
+1633981885276,173,get_make,200,OK,http-perfsuite-v1 1-1,text,true,,1252,741,1,1,https://buggy.justtestit.org/make/c4u1mqnarscc72is00e0,173,0,0
+1633981885449,408,api_make,200,OK,http-perfsuite-v1 1-1,text,true,,3977,708,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/makes/c4u1mqnarscc72is00e0,408,0,0
+1633981885276,581,tx-make,200,"Number of samples in transaction : 2, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,5229,1449,1,1,null,581,0,0
+1633981885857,6,get_model,200,OK,http-perfsuite-v1 1-1,text,true,,1252,765,1,1,https://buggy.justtestit.org/model/c4u1mqnarscc72is00e0%7Cc4u1mqnarscc72is00kg,5,0,0
+1633981885863,274,api_model,200,OK,http-perfsuite-v1 1-1,text,true,,14576,732,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/models/c4u1mqnarscc72is00e0%7Cc4u1mqnarscc72is00kg,272,0,0
+1633981885857,280,tx-model,200,"Number of samples in transaction : 2, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,15828,1497,1,1,null,277,0,0
+1633981886137,160,get_overall,200,OK,http-perfsuite-v1 1-1,text,true,,1252,723,1,1,https://buggy.justtestit.org/overall,160,0,0
+1633981886298,405,api_overall_page,200,OK,http-perfsuite-v1 1-1,text,true,,3017,637,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/models?page=1%20,404,0,0
+1633981886137,565,tx-overall,200,"Number of samples in transaction : 2, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,4269,1360,1,1,null,564,1,0
+1633981886703,21,vars-overwrite,200,OK,http-perfsuite-v1 1-1,text,true,,0,0,1,1,null,0,0,0
+1633981886725,5,get_register,200,OK,http-perfsuite-v1 1-1,text,true,,1252,765,1,1,https://buggy.justtestit.org/model/c4u1mqnarscc72is00e0%7Cc4u1mqnarscc72is00kg,5,0,0
+1633981886731,42,api_reg_users_init,200,OK,http-perfsuite-v1 1-1,text,true,,550,583,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users,42,0,0
+1633981886773,350,api_reg_users,201,Created,http-perfsuite-v1 1-1,text,true,,566,843,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users,350,0,0
+1633981887123,488,api_login_auth,200,OK,http-perfsuite-v1 1-1,text,true,,3447,766,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/oauth/token,488,0,0
+1633981887612,167,api_login_opt,200,OK,http-perfsuite-v1 1-1,text,true,,550,591,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users/current,167,0,0
+1633981887780,179,api_login_current,200,OK,http-perfsuite-v1 1-1,text,true,,628,1708,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users/current,179,0,0
+1633981887123,834,tx-login-new,200,"Number of samples in transaction : 3, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,4625,3065,1,1,null,834,3,0
+1633981886703,1252,tx-register,200,"Number of samples in transaction : 7, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,6993,5256,1,1,null,1231,5,0
+1633981887960,8,globals,200,OK,http-perfsuite-v1 1-1,text,true,,0,0,1,1,null,0,0,0
+1633981887968,14,runtime-controller,200,OK,http-perfsuite-v1 1-1,text,true,,0,0,1,1,null,0,0,0
+1633981887982,282,get_home_nocache,200,OK,http-perfsuite-v1 1-1,text,true,,348925,5713,1,1,https://buggy.justtestit.org/,188,0,26
+1633981887982,188,get_home_nocache-0,200,OK,http-perfsuite-v1 1-1,text,true,,1257,690,1,1,https://buggy.justtestit.org/,188,0,26
+1633981888174,9,get_home_nocache-1,200,OK,http-perfsuite-v1 1-1,bin,true,,3770,705,1,1,https://buggy.justtestit.org/img/favicon.ico,8,0,0
+1633981888183,17,get_home_nocache-2,200,OK,http-perfsuite-v1 1-1,text,true,,17723,725,1,1,https://buggy.justtestit.org/css/vendor.a5856ccaff510c09debf.css,15,0,0
+1633981888201,5,get_home_nocache-3,200,OK,http-perfsuite-v1 1-1,text,true,,998,722,1,1,https://buggy.justtestit.org/css/app.a5856ccaff510c09debf.css,5,0,0
+1633981888207,8,get_home_nocache-4,200,OK,http-perfsuite-v1 1-1,bin,true,,31518,702,1,1,https://buggy.justtestit.org/img/spin.gif,7,0,0
+1633981888215,13,get_home_nocache-5,200,OK,http-perfsuite-v1 1-1,text,true,,74871,726,1,1,https://buggy.justtestit.org/js/polyfills.a5856ccaff510c09debf.js,5,0,0
+1633981888228,27,get_home_nocache-6,200,OK,http-perfsuite-v1 1-1,text,true,,174765,723,1,1,https://buggy.justtestit.org/js/vendor.a5856ccaff510c09debf.js,19,0,0
+1633981888255,9,get_home_nocache-7,200,OK,http-perfsuite-v1 1-1,text,true,,44023,720,1,1,https://buggy.justtestit.org/js/app.a5856ccaff510c09debf.js,5,0,0
+1633981888265,46,get_home_cache,200,OK,http-perfsuite-v1 1-1,text,true,,1257,690,1,1,https://buggy.justtestit.org/,46,0,0
+1633981888312,169,api_dashboard,200,OK,http-perfsuite-v1 1-1,text,true,,794,170,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/dashboard,169,0,39
+1633981887982,497,tx-landing,200,"Number of samples in transaction : 5, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,350976,6573,1,1,null,403,2,65
+1633981888482,6,get_make,200,OK,http-perfsuite-v1 1-1,text,true,,1252,741,1,1,https://buggy.justtestit.org/make/c4u1mqnarscc72is00e0,6,0,0
+1633981888488,373,api_make,200,OK,http-perfsuite-v1 1-1,text,true,,3977,708,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/makes/c4u1mqnarscc72is00e0,373,0,0
+1633981888481,379,tx-make,200,"Number of samples in transaction : 2, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,5229,1449,1,1,null,379,1,0
+1633981888862,5,get_model,200,OK,http-perfsuite-v1 1-1,text,true,,1252,765,1,1,https://buggy.justtestit.org/model/c4u1mqnarscc72is00e0%7Cc4u1mqnarscc72is00kg,5,0,0
+1633981888867,270,api_model,200,OK,http-perfsuite-v1 1-1,text,true,,14576,732,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/models/c4u1mqnarscc72is00e0%7Cc4u1mqnarscc72is00kg,269,0,0
+1633981888861,275,tx-model,200,"Number of samples in transaction : 2, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,15828,1497,1,1,null,274,2,0
+1633981889138,46,get_overall,200,OK,http-perfsuite-v1 1-1,text,true,,1252,723,1,1,https://buggy.justtestit.org/overall,46,0,0
+1633981889184,476,api_overall_page,200,OK,http-perfsuite-v1 1-1,text,true,,3017,637,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/models?page=1%20,476,0,0
+1633981889138,522,tx-overall,200,"Number of samples in transaction : 2, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,4269,1360,1,1,null,522,0,0
+1633981889661,8,globals,200,OK,http-perfsuite-v1 1-1,text,true,,0,0,1,1,null,0,0,0
+1633981889669,12,runtime-controller,200,OK,http-perfsuite-v1 1-1,text,true,,0,0,1,1,null,0,0,0
+1633981889682,139,get_home_nocache,200,OK,http-perfsuite-v1 1-1,text,true,,348879,5697,1,1,https://buggy.justtestit.org/,71,0,25
+1633981889682,72,get_home_nocache-0,200,OK,http-perfsuite-v1 1-1,text,true,,1257,688,1,1,https://buggy.justtestit.org/,71,0,25
+1633981889754,4,get_home_nocache-1,200,OK,http-perfsuite-v1 1-1,bin,true,,3770,703,1,1,https://buggy.justtestit.org/img/favicon.ico,4,0,0
+1633981889758,6,get_home_nocache-2,200,OK,http-perfsuite-v1 1-1,text,true,,17723,723,1,1,https://buggy.justtestit.org/css/vendor.a5856ccaff510c09debf.css,5,0,0
+1633981889764,3,get_home_nocache-3,200,OK,http-perfsuite-v1 1-1,text,true,,998,720,1,1,https://buggy.justtestit.org/css/app.a5856ccaff510c09debf.css,3,0,0
+1633981889767,7,get_home_nocache-4,200,OK,http-perfsuite-v1 1-1,bin,true,,31518,700,1,1,https://buggy.justtestit.org/img/spin.gif,5,0,0
+1633981889774,12,get_home_nocache-5,200,OK,http-perfsuite-v1 1-1,text,true,,74841,724,1,1,https://buggy.justtestit.org/js/polyfills.a5856ccaff510c09debf.js,5,0,0
+1633981889786,27,get_home_nocache-6,200,OK,http-perfsuite-v1 1-1,text,true,,174757,721,1,1,https://buggy.justtestit.org/js/vendor.a5856ccaff510c09debf.js,18,0,0
+1633981889813,8,get_home_nocache-7,200,OK,http-perfsuite-v1 1-1,text,true,,44015,718,1,1,https://buggy.justtestit.org/js/app.a5856ccaff510c09debf.js,4,0,0
+1633981889821,174,api_dashboard,200,OK,http-perfsuite-v1 1-1,text,true,,794,170,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/dashboard,174,0,24
+1633981889681,313,tx-landing,200,"Number of samples in transaction : 4, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,349673,5867,1,1,null,245,2,49
+1633981889996,5,get_make,200,OK,http-perfsuite-v1 1-1,text,true,,1252,739,1,1,https://buggy.justtestit.org/make/c4u1mqnarscc72is00e0,5,0,0
+1633981983072,691,api_make,200,OK,http-perfsuite-v1 1-1,text,true,,3977,708,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/makes/c4u1mqnarscc72is00e0,691,0,73
+1633981889996,696,tx-make,200,"Number of samples in transaction : 2, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,5229,1447,1,1,null,696,93072,73
+1633981983764,250,get_model,200,OK,http-perfsuite-v1 1-1,text,true,,1252,763,1,1,https://buggy.justtestit.org/model/c4u1mqnarscc72is00e0%7Cc4u1mqnarscc72is00kg,250,0,62
+1633981984014,236,api_model,200,OK,http-perfsuite-v1 1-1,text,true,,14576,732,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/models/c4u1mqnarscc72is00e0%7Cc4u1mqnarscc72is00kg,235,0,0
+1633981983764,486,tx-model,200,"Number of samples in transaction : 2, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,15828,1495,1,1,null,485,1,62
+1633981984251,9,get_overall,200,OK,http-perfsuite-v1 1-1,text,true,,1252,721,1,1,https://buggy.justtestit.org/overall,9,0,0
+1633981984260,503,api_overall_page,200,OK,http-perfsuite-v1 1-1,text,true,,3017,635,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/models?page=1%20,502,0,0
+1633981984251,512,tx-overall,200,"Number of samples in transaction : 2, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,4269,1356,1,1,null,511,0,0
+1633981984763,9,vars-overwrite,200,OK,http-perfsuite-v1 1-1,text,true,,0,0,1,1,null,0,0,0
+1633981984772,5,get_register,200,OK,http-perfsuite-v1 1-1,text,true,,1252,763,1,1,https://buggy.justtestit.org/model/c4u1mqnarscc72is00e0%7Cc4u1mqnarscc72is00kg,5,0,0
+1633981984777,109,api_reg_users_init,200,OK,http-perfsuite-v1 1-1,text,true,,550,583,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users,109,0,0
+1633981984886,331,api_reg_users,201,Created,http-perfsuite-v1 1-1,text,true,,566,841,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users,331,0,0
+1633981985218,373,api_login_auth,200,OK,http-perfsuite-v1 1-1,text,true,,3447,764,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/oauth/token,373,0,0
+1633981985592,114,api_login_opt,200,OK,http-perfsuite-v1 1-1,text,true,,550,591,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users/current,114,0,0
+1633981985706,133,api_login_current,200,OK,http-perfsuite-v1 1-1,text,true,,628,1706,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users/current,133,0,0
+1633981985218,620,tx-login-new,200,"Number of samples in transaction : 3, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,4625,3061,1,1,null,620,1,0
+1633981984763,1074,tx-register,200,"Number of samples in transaction : 7, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,6993,5248,1,1,null,1065,2,0
+1633981985839,143,get_model,200,OK,http-perfsuite-v1 1-1,text,true,,1252,763,1,1,https://buggy.justtestit.org/model/c4u1mqnarscc72is00e0%7Cc4u1mqnarscc72is00kg,142,0,0
+1633982221164,366,globals,200,OK,http-perfsuite-v1 1-1,text,true,,0,0,1,1,null,0,0,0
+1633982221535,61,runtime-controller,200,OK,http-perfsuite-v1 1-1,text,true,,0,0,1,1,null,0,0,0
+1633982221649,800,get_home_cache,200,OK,http-perfsuite-v1 1-1,text,true,,1257,690,1,1,https://buggy.justtestit.org/,799,0,623
+1633982222449,323,api_dashboard,200,OK,http-perfsuite-v1 1-1,text,true,,794,170,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/dashboard,323,0,56
+1633982221596,1123,tx-landing,200,"Number of samples in transaction : 4, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,2051,860,1,1,null,1122,110,679
+1633982222830,450,api_login_auth,200,OK,http-perfsuite-v1 1-1,text,true,,3445,759,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/oauth/token,450,0,0
+1633982223289,114,api_login_opt,200,OK,http-perfsuite-v1 1-1,text,true,,550,591,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users/current,114,0,0
+1633982223404,124,api_login_current,200,OK,http-perfsuite-v1 1-1,text,true,,618,1707,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users/current,124,0,0
+1633982222829,688,tx-login-existing,200,"Number of samples in transaction : 3, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,4613,3057,1,1,null,688,11,0
+1633982223528,362,get_make,200,OK,http-perfsuite-v1 1-1,text,true,,1252,741,1,1,https://buggy.justtestit.org/make/c4u1mqnarscc72is00e0,362,0,0
+1633982223890,452,api_make,200,OK,http-perfsuite-v1 1-1,text,true,,3977,708,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/makes/c4u1mqnarscc72is00e0,451,0,0
+1633982223528,814,tx-make,200,"Number of samples in transaction : 2, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,5229,1449,1,1,null,813,0,0
+1633982224342,255,get_model,200,OK,http-perfsuite-v1 1-1,text,true,,1252,765,1,1,https://buggy.justtestit.org/model/c4u1mqnarscc72is00e0%7Cc4u1mqnarscc72is00kg,255,0,0
+1633982224597,273,api_model,200,OK,http-perfsuite-v1 1-1,text,true,,14576,732,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/models/c4u1mqnarscc72is00e0%7Cc4u1mqnarscc72is00kg,266,0,0
+1633982224342,528,tx-model,200,"Number of samples in transaction : 2, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,15828,1497,1,1,null,521,0,0
+1633982224871,42,get_overall,200,OK,http-perfsuite-v1 1-1,text,true,,1252,723,1,1,https://buggy.justtestit.org/overall,42,0,0
+1633982224913,453,api_overall_page,200,OK,http-perfsuite-v1 1-1,text,true,,3017,637,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/models?page=1%20,453,0,0
+1633982224870,495,tx-overall,200,"Number of samples in transaction : 2, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,4269,1360,1,1,null,495,1,0
+1633982225366,20,vars-overwrite,200,OK,http-perfsuite-v1 1-1,text,true,,0,0,1,1,null,0,0,0
+1633982225386,132,get_register,200,OK,http-perfsuite-v1 1-1,text,true,,1252,765,1,1,https://buggy.justtestit.org/model/c4u1mqnarscc72is00e0%7Cc4u1mqnarscc72is00kg,132,0,0
+1633982225518,101,api_reg_users_init,200,OK,http-perfsuite-v1 1-1,text,true,,550,583,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users,101,0,0
+1633982225620,317,api_reg_users,201,Created,http-perfsuite-v1 1-1,text,true,,566,843,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users,317,0,0
+1633982225937,476,api_login_auth,200,OK,http-perfsuite-v1 1-1,text,true,,3447,766,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/oauth/token,476,0,0
+1633982226414,39,api_login_opt,200,OK,http-perfsuite-v1 1-1,text,true,,550,591,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users/current,39,0,0
+1633982226453,65,api_login_current,200,OK,http-perfsuite-v1 1-1,text,true,,628,1708,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users/current,65,0,0
+1633982225937,580,tx-login-new,200,"Number of samples in transaction : 3, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,4625,3065,1,1,null,580,2,0
+1633982225366,1150,tx-register,200,"Number of samples in transaction : 7, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,6993,5256,1,1,null,1130,3,0
+1633982226519,181,api_profile_update_opt,200,OK,http-perfsuite-v1 1-1,text,true,,550,591,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users/profile,181,0,0
+1633982226700,220,api_profile_update_get,200,OK,http-perfsuite-v1 1-1,text,true,,693,1708,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users/profile,220,0,0
+1633982226921,192,api_profile_update_set,200,OK,http-perfsuite-v1 1-1,text,true,,550,604,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users/profile,192,0,0
+1633982227114,432,api_profile_update_full,200,OK,http-perfsuite-v1 1-1,text,true,,561,2114,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users/profile,432,0,0
+1633982226519,1025,tx-profile,200,"Number of samples in transaction : 4, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,2354,5017,1,1,null,1025,2,0
+1633982227547,19,globals,200,OK,http-perfsuite-v1 1-1,text,true,,0,0,1,1,null,0,0,0
+1633982227566,21,runtime-controller,200,OK,http-perfsuite-v1 1-1,text,true,,0,0,1,1,null,0,0,0
+1633982227588,199,get_home_cache,200,OK,http-perfsuite-v1 1-1,text,true,,1257,690,1,1,https://buggy.justtestit.org/,199,0,28
+1633982227787,158,api_dashboard,200,OK,http-perfsuite-v1 1-1,text,true,,794,170,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/dashboard,158,0,23
+1633982227587,357,tx-landing,200,"Number of samples in transaction : 4, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,2051,860,1,1,null,357,2,51
+1633982227947,321,api_login_auth,200,OK,http-perfsuite-v1 1-1,text,true,,3438,762,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/oauth/token,321,0,0
+1633982228269,150,api_login_opt,200,OK,http-perfsuite-v1 1-1,text,true,,550,591,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users/current,150,0,0
+1633982228420,113,api_login_current,200,OK,http-perfsuite-v1 1-1,text,true,,614,1704,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users/current,113,0,0
+1633982227946,584,tx-login-existing,200,"Number of samples in transaction : 3, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,4602,3057,1,1,null,584,3,0
+1633982228533,166,get_make,200,OK,http-perfsuite-v1 1-1,text,true,,1252,741,1,1,https://buggy.justtestit.org/make/c4u1mqnarscc72is00e0,166,0,0
+1633982228699,454,api_make,200,OK,http-perfsuite-v1 1-1,text,true,,3977,708,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/makes/c4u1mqnarscc72is00e0,453,0,0
+1633982228533,620,tx-make,200,"Number of samples in transaction : 2, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,5229,1449,1,1,null,619,0,0
+1633982229153,49,get_model,200,OK,http-perfsuite-v1 1-1,text,true,,1252,765,1,1,https://buggy.justtestit.org/model/c4u1mqnarscc72is00e0%7Cc4u1mqnarscc72is00kg,49,0,0
+1633982229203,257,api_model,200,OK,http-perfsuite-v1 1-1,text,true,,14576,732,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/models/c4u1mqnarscc72is00e0%7Cc4u1mqnarscc72is00kg,255,0,0
+1633982229153,306,tx-model,200,"Number of samples in transaction : 2, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,15828,1497,1,1,null,304,1,0
+1633982229461,5,get_overall,200,OK,http-perfsuite-v1 1-1,text,true,,1252,723,1,1,https://buggy.justtestit.org/overall,5,0,0
+1633982229467,398,api_overall_page,200,OK,http-perfsuite-v1 1-1,text,true,,3017,637,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/models?page=1%20,398,0,0
+1633982229460,403,tx-overall,200,"Number of samples in transaction : 2, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,4269,1360,1,1,null,403,2,0
+1633982229866,12,globals,200,OK,http-perfsuite-v1 1-1,text,true,,0,0,1,1,null,0,0,0
+1633982229878,19,runtime-controller,200,OK,http-perfsuite-v1 1-1,text,true,,0,0,1,1,null,0,0,0
+1633982229898,328,get_home_nocache,200,OK,http-perfsuite-v1 1-1,text,true,,348872,5713,1,1,https://buggy.justtestit.org/,32,0,27
+1633982229898,32,get_home_nocache-0,200,OK,http-perfsuite-v1 1-1,text,true,,1250,690,1,1,https://buggy.justtestit.org/,32,0,27
+1633982229956,4,get_home_nocache-1,200,OK,http-perfsuite-v1 1-1,bin,true,,3770,705,1,1,https://buggy.justtestit.org/img/favicon.ico,4,0,0
+1633982229960,8,get_home_nocache-2,200,OK,http-perfsuite-v1 1-1,text,true,,17723,725,1,1,https://buggy.justtestit.org/css/vendor.a5856ccaff510c09debf.css,7,0,0
+1633982230147,4,get_home_nocache-3,200,OK,http-perfsuite-v1 1-1,text,true,,998,722,1,1,https://buggy.justtestit.org/css/app.a5856ccaff510c09debf.css,4,0,0
+1633982230152,7,get_home_nocache-4,200,OK,http-perfsuite-v1 1-1,bin,true,,31518,702,1,1,https://buggy.justtestit.org/img/spin.gif,6,0,0
+1633982230159,13,get_home_nocache-5,200,OK,http-perfsuite-v1 1-1,text,true,,74841,726,1,1,https://buggy.justtestit.org/js/polyfills.a5856ccaff510c09debf.js,6,0,0
+1633982230172,46,get_home_nocache-6,200,OK,http-perfsuite-v1 1-1,text,true,,174757,723,1,1,https://buggy.justtestit.org/js/vendor.a5856ccaff510c09debf.js,37,0,0
+1633982230218,8,get_home_nocache-7,200,OK,http-perfsuite-v1 1-1,text,true,,44015,720,1,1,https://buggy.justtestit.org/js/app.a5856ccaff510c09debf.js,5,0,0
+1633982230227,47,get_home_cache,200,OK,http-perfsuite-v1 1-1,text,true,,1257,690,1,1,https://buggy.justtestit.org/,47,0,0
+1633982230274,238,api_dashboard,200,OK,http-perfsuite-v1 1-1,text,true,,794,170,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/dashboard,238,0,24
+1633982229897,613,tx-landing,200,"Number of samples in transaction : 5, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,350923,6573,1,1,null,317,2,51
+1633982230512,6,get_make,200,OK,http-perfsuite-v1 1-1,text,true,,1252,741,1,1,https://buggy.justtestit.org/make/c4u1mqnarscc72is00e0,6,0,0
+1633982230518,347,api_make,200,OK,http-perfsuite-v1 1-1,text,true,,3977,708,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/makes/c4u1mqnarscc72is00e0,346,0,0
+1633982230512,353,tx-make,200,"Number of samples in transaction : 2, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,5229,1449,1,1,null,352,0,0
+1633982230865,6,get_model,200,OK,http-perfsuite-v1 1-1,text,true,,1252,765,1,1,https://buggy.justtestit.org/model/c4u1mqnarscc72is00e0%7Cc4u1mqnarscc72is00kg,6,0,0
+1633982230871,320,api_model,200,OK,http-perfsuite-v1 1-1,text,true,,14576,732,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/models/c4u1mqnarscc72is00e0%7Cc4u1mqnarscc72is00kg,319,0,0
+1633982230865,326,tx-model,200,"Number of samples in transaction : 2, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,15828,1497,1,1,null,325,0,0
+1633982231191,171,get_overall,200,OK,http-perfsuite-v1 1-1,text,true,,1252,723,1,1,https://buggy.justtestit.org/overall,171,0,0
+1633982231363,423,api_overall_page,200,OK,http-perfsuite-v1 1-1,text,true,,3017,637,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/models?page=1%20,423,0,0
+1633982231191,594,tx-overall,200,"Number of samples in transaction : 2, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,4269,1360,1,1,null,594,1,0
+1633982231787,10,globals,200,OK,http-perfsuite-v1 1-1,text,true,,0,0,1,1,null,0,0,0
+1633982231797,16,runtime-controller,200,OK,http-perfsuite-v1 1-1,text,true,,0,0,1,1,null,0,0,0
+1633982231814,31,get_home_cache,200,OK,http-perfsuite-v1 1-1,text,true,,1250,690,1,1,https://buggy.justtestit.org/,30,0,25
+1633982231845,167,api_dashboard,200,OK,http-perfsuite-v1 1-1,text,true,,794,170,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/dashboard,167,0,22
+1633982231813,198,tx-landing,200,"Number of samples in transaction : 4, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,2044,860,1,1,null,197,2,47
+1633982232013,54,get_make,200,OK,http-perfsuite-v1 1-1,text,true,,1252,741,1,1,https://buggy.justtestit.org/make/c4u1mqnarscc72is00e0,54,0,0
+1633982232067,420,api_make,200,OK,http-perfsuite-v1 1-1,text,true,,3977,708,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/makes/c4u1mqnarscc72is00e0,420,0,0
+1633982232013,474,tx-make,200,"Number of samples in transaction : 2, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,5229,1449,1,1,null,474,0,0
+1633982232487,6,get_model,200,OK,http-perfsuite-v1 1-1,text,true,,1252,765,1,1,https://buggy.justtestit.org/model/c4u1mqnarscc72is00e0%7Cc4u1mqnarscc72is00kg,6,0,0
+1633982232493,258,api_model,200,OK,http-perfsuite-v1 1-1,text,true,,14576,732,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/models/c4u1mqnarscc72is00e0%7Cc4u1mqnarscc72is00kg,258,0,0
+1633982232487,264,tx-model,200,"Number of samples in transaction : 2, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,15828,1497,1,1,null,264,0,0
+1633982232751,5,get_overall,200,OK,http-perfsuite-v1 1-1,text,true,,1252,723,1,1,https://buggy.justtestit.org/overall,5,0,0
+1633982232756,451,api_overall_page,200,OK,http-perfsuite-v1 1-1,text,true,,3017,637,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/models?page=1%20,451,0,0
+1633982232751,456,tx-overall,200,"Number of samples in transaction : 2, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,4269,1360,1,1,null,456,0,0
+1633982233207,9,globals,200,OK,http-perfsuite-v1 1-1,text,true,,0,0,1,1,null,0,0,0
+1633982233216,15,runtime-controller,200,OK,http-perfsuite-v1 1-1,text,true,,0,0,1,1,null,0,0,0
+1633982233232,202,get_home_cache,200,OK,http-perfsuite-v1 1-1,text,true,,1257,690,1,1,https://buggy.justtestit.org/,202,0,27
+1633982233435,167,api_dashboard,200,OK,http-perfsuite-v1 1-1,text,true,,794,170,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/dashboard,167,0,27
+1633982233231,369,tx-landing,200,"Number of samples in transaction : 4, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,2051,860,1,1,null,369,3,54
+1633982233604,402,api_login_auth,200,OK,http-perfsuite-v1 1-1,text,true,,3438,762,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/oauth/token,402,0,0
+1633982234007,103,api_login_opt,200,OK,http-perfsuite-v1 1-1,text,true,,550,591,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users/current,103,0,0
+1633982234110,58,api_login_current,200,OK,http-perfsuite-v1 1-1,text,true,,614,1704,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users/current,58,0,0
+1633982233603,563,tx-login-existing,200,"Number of samples in transaction : 3, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,4602,3057,1,1,null,563,2,0
+1633982234168,52,get_make,200,OK,http-perfsuite-v1 1-1,text,true,,1252,741,1,1,https://buggy.justtestit.org/make/c4u1mqnarscc72is00e0,52,0,0
+1633982234220,369,api_make,200,OK,http-perfsuite-v1 1-1,text,true,,3977,708,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/makes/c4u1mqnarscc72is00e0,367,0,0
+1633982234168,421,tx-make,200,"Number of samples in transaction : 2, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,5229,1449,1,1,null,419,0,0
+1633982234590,6,get_model,200,OK,http-perfsuite-v1 1-1,text,true,,1252,765,1,1,https://buggy.justtestit.org/model/c4u1mqnarscc72is00e0%7Cc4u1mqnarscc72is00kg,6,0,0
+1633982234597,342,api_model,200,OK,http-perfsuite-v1 1-1,text,true,,14576,732,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/models/c4u1mqnarscc72is00e0%7Cc4u1mqnarscc72is00kg,340,0,0
+1633982234589,348,tx-model,200,"Number of samples in transaction : 2, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,15828,1497,1,1,null,346,2,0
+1633982234939,5,get_overall,200,OK,http-perfsuite-v1 1-1,text,true,,1252,723,1,1,https://buggy.justtestit.org/overall,5,0,0
+1633982234944,422,api_overall_page,200,OK,http-perfsuite-v1 1-1,text,true,,3017,637,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/models?page=1%20,422,0,0
+1633982234939,427,tx-overall,200,"Number of samples in transaction : 2, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,4269,1360,1,1,null,427,1,0
+1633982235367,11,vars-overwrite,200,OK,http-perfsuite-v1 1-1,text,true,,0,0,1,1,null,0,0,0
+1633982235378,49,get_register,200,OK,http-perfsuite-v1 1-1,text,true,,1252,765,1,1,https://buggy.justtestit.org/model/c4u1mqnarscc72is00e0%7Cc4u1mqnarscc72is00kg,49,0,0
+1633982235428,123,api_reg_users_init,200,OK,http-perfsuite-v1 1-1,text,true,,550,583,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users,123,0,0
+1633982235551,335,api_reg_users,201,Created,http-perfsuite-v1 1-1,text,true,,566,843,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users,335,0,0
+1633982235886,454,api_login_auth,200,OK,http-perfsuite-v1 1-1,text,true,,3447,766,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/oauth/token,454,0,0
+1633982236341,163,api_login_opt,200,OK,http-perfsuite-v1 1-1,text,true,,550,591,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users/current,163,0,0
+1633982236505,220,api_login_current,200,OK,http-perfsuite-v1 1-1,text,true,,628,1708,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users/current,220,0,0
+1633982235886,837,tx-login-new,200,"Number of samples in transaction : 3, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,4625,3065,1,1,null,837,3,0
+1633982235367,1355,tx-register,200,"Number of samples in transaction : 7, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,6993,5256,1,1,null,1344,4,0
+1633982236726,9,globals,200,OK,http-perfsuite-v1 1-1,text,true,,0,0,1,1,null,0,0,0
+1633982236735,15,runtime-controller,200,OK,http-perfsuite-v1 1-1,text,true,,0,0,1,1,null,0,0,0
+1633982236751,259,get_home_nocache,200,OK,http-perfsuite-v1 1-1,text,true,,348926,5713,1,1,https://buggy.justtestit.org/,180,0,25
+1633982236751,180,get_home_nocache-0,200,OK,http-perfsuite-v1 1-1,text,true,,1257,690,1,1,https://buggy.justtestit.org/,180,0,25
+1633982236932,5,get_home_nocache-1,200,OK,http-perfsuite-v1 1-1,bin,true,,3770,705,1,1,https://buggy.justtestit.org/img/favicon.ico,5,0,0
+1633982236938,7,get_home_nocache-2,200,OK,http-perfsuite-v1 1-1,text,true,,17723,725,1,1,https://buggy.justtestit.org/css/vendor.a5856ccaff510c09debf.css,7,0,0
+1633982236946,4,get_home_nocache-3,200,OK,http-perfsuite-v1 1-1,text,true,,998,722,1,1,https://buggy.justtestit.org/css/app.a5856ccaff510c09debf.css,4,0,0
+1633982236951,8,get_home_nocache-4,200,OK,http-perfsuite-v1 1-1,bin,true,,31518,702,1,1,https://buggy.justtestit.org/img/spin.gif,6,0,0
+1633982236959,13,get_home_nocache-5,200,OK,http-perfsuite-v1 1-1,text,true,,74841,726,1,1,https://buggy.justtestit.org/js/polyfills.a5856ccaff510c09debf.js,7,0,0
+1633982236973,27,get_home_nocache-6,200,OK,http-perfsuite-v1 1-1,text,true,,174804,723,1,1,https://buggy.justtestit.org/js/vendor.a5856ccaff510c09debf.js,18,0,0
+1633982237000,10,get_home_nocache-7,200,OK,http-perfsuite-v1 1-1,text,true,,44015,720,1,1,https://buggy.justtestit.org/js/app.a5856ccaff510c09debf.js,6,0,0
+1633982237010,157,get_home_cache,200,OK,http-perfsuite-v1 1-1,text,true,,1257,690,1,1,https://buggy.justtestit.org/,157,0,0
+1633982237167,158,api_dashboard,200,OK,http-perfsuite-v1 1-1,text,true,,794,170,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/dashboard,158,0,23
+1633982236750,574,tx-landing,200,"Number of samples in transaction : 5, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,350977,6573,1,1,null,495,2,48
+1633982237326,5,get_make,200,OK,http-perfsuite-v1 1-1,text,true,,1252,741,1,1,https://buggy.justtestit.org/make/c4u1mqnarscc72is00e0,5,0,0
+1633982237331,356,api_make,200,OK,http-perfsuite-v1 1-1,text,true,,3977,708,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/makes/c4u1mqnarscc72is00e0,355,0,0
+1633982237326,361,tx-make,200,"Number of samples in transaction : 2, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,5229,1449,1,1,null,360,0,0
+1633982237687,4,get_model,200,OK,http-perfsuite-v1 1-1,text,true,,1252,765,1,1,https://buggy.justtestit.org/model/c4u1mqnarscc72is00e0%7Cc4u1mqnarscc72is00kg,4,0,0
+1633982237691,217,api_model,200,OK,http-perfsuite-v1 1-1,text,true,,14576,732,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/models/c4u1mqnarscc72is00e0%7Cc4u1mqnarscc72is00kg,213,0,0
+1633982237687,221,tx-model,200,"Number of samples in transaction : 2, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,15828,1497,1,1,null,217,0,0
+1633982237908,6,get_overall,200,OK,http-perfsuite-v1 1-1,text,true,,1252,723,1,1,https://buggy.justtestit.org/overall,6,0,0
+1633982237915,412,api_overall_page,200,OK,http-perfsuite-v1 1-1,text,true,,3017,637,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/models?page=1%20,412,0,0
+1633982237908,418,tx-overall,200,"Number of samples in transaction : 2, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,4269,1360,1,1,null,418,1,0
+1633982238327,8,vars-overwrite,200,OK,http-perfsuite-v1 1-1,text,true,,0,0,1,1,null,0,0,0
+1633982238336,46,get_register,200,OK,http-perfsuite-v1 1-1,text,true,,1252,765,1,1,https://buggy.justtestit.org/model/c4u1mqnarscc72is00e0%7Cc4u1mqnarscc72is00kg,46,0,0
+1633982238382,40,api_reg_users_init,200,OK,http-perfsuite-v1 1-1,text,true,,550,583,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users,40,0,0
+1633982238422,293,api_reg_users,201,Created,http-perfsuite-v1 1-1,text,true,,566,843,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users,293,0,0
+1633982238716,355,api_login_auth,200,OK,http-perfsuite-v1 1-1,text,true,,3447,766,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/oauth/token,353,0,0
+1633982239073,131,api_login_opt,200,OK,http-perfsuite-v1 1-1,text,true,,550,591,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users/current,131,0,0
+1633982239205,202,api_login_current,200,OK,http-perfsuite-v1 1-1,text,true,,628,1708,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users/current,202,0,0
+1633982238716,688,tx-login-new,200,"Number of samples in transaction : 3, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,4625,3065,1,1,null,686,3,0
+1633982238327,1075,tx-register,200,"Number of samples in transaction : 7, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,6993,5256,1,1,null,1065,5,0
+1633982239410,28,globals,200,OK,http-perfsuite-v1 1-1,text,true,,0,0,1,1,null,0,0,0
+1633982239438,21,runtime-controller,200,OK,http-perfsuite-v1 1-1,text,true,,0,0,1,1,null,0,0,0
+1633982239459,72,get_home_cache,200,OK,http-perfsuite-v1 1-1,text,true,,1257,690,1,1,https://buggy.justtestit.org/,72,0,26
+1633982239532,175,api_dashboard,200,OK,http-perfsuite-v1 1-1,text,true,,794,170,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/dashboard,175,0,23
+1633982239459,247,tx-landing,200,"Number of samples in transaction : 4, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,2051,860,1,1,null,247,2,49
+1633982239708,364,api_login_auth,200,OK,http-perfsuite-v1 1-1,text,true,,3445,759,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/oauth/token,363,0,0
+1633982240072,117,api_login_opt,200,OK,http-perfsuite-v1 1-1,text,true,,550,591,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users/current,117,0,0
+1633982240189,137,api_login_current,200,OK,http-perfsuite-v1 1-1,text,true,,618,1707,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users/current,137,0,0
+1633982239708,618,tx-login-existing,200,"Number of samples in transaction : 3, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,4613,3057,1,1,null,617,0,0
+1633982240326,49,get_make,200,OK,http-perfsuite-v1 1-1,text,true,,1252,741,1,1,https://buggy.justtestit.org/make/c4u1mqnarscc72is00e0,49,0,0
+1633982240375,391,api_make,200,OK,http-perfsuite-v1 1-1,text,true,,3977,708,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/makes/c4u1mqnarscc72is00e0,391,0,0
+1633982240326,440,tx-make,200,"Number of samples in transaction : 2, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,5229,1449,1,1,null,440,0,0
+1633982240767,6,get_model,200,OK,http-perfsuite-v1 1-1,text,true,,1252,765,1,1,https://buggy.justtestit.org/model/c4u1mqnarscc72is00e0%7Cc4u1mqnarscc72is00kg,6,0,0
+1633982240773,329,api_model,200,OK,http-perfsuite-v1 1-1,text,true,,14576,732,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/models/c4u1mqnarscc72is00e0%7Cc4u1mqnarscc72is00kg,328,0,0
+1633982240767,335,tx-model,200,"Number of samples in transaction : 2, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,15828,1497,1,1,null,334,0,0
+1633982241102,179,get_overall,200,OK,http-perfsuite-v1 1-1,text,true,,1252,723,1,1,https://buggy.justtestit.org/overall,179,0,0
+1633982241282,474,api_overall_page,200,OK,http-perfsuite-v1 1-1,text,true,,3017,637,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/models?page=1%20,474,0,0
+1633982241102,653,tx-overall,200,"Number of samples in transaction : 2, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,4269,1360,1,1,null,653,1,0
+1633982241756,10,globals,200,OK,http-perfsuite-v1 1-1,text,true,,0,0,1,1,null,0,0,0
+1633982241766,14,runtime-controller,200,OK,http-perfsuite-v1 1-1,text,true,,0,0,1,1,null,0,0,0
+1633982241780,114,get_home_nocache,200,OK,http-perfsuite-v1 1-1,text,true,,348872,5713,1,1,https://buggy.justtestit.org/,30,0,26
+1633982241780,30,get_home_nocache-0,200,OK,http-perfsuite-v1 1-1,text,true,,1250,690,1,1,https://buggy.justtestit.org/,30,0,26
+1633982241811,4,get_home_nocache-1,200,OK,http-perfsuite-v1 1-1,bin,true,,3770,705,1,1,https://buggy.justtestit.org/img/favicon.ico,3,0,0
+1633982241815,22,get_home_nocache-2,200,OK,http-perfsuite-v1 1-1,text,true,,17723,725,1,1,https://buggy.justtestit.org/css/vendor.a5856ccaff510c09debf.css,22,0,0
+1633982241838,3,get_home_nocache-3,200,OK,http-perfsuite-v1 1-1,text,true,,998,722,1,1,https://buggy.justtestit.org/css/app.a5856ccaff510c09debf.css,3,0,0
+1633982241841,7,get_home_nocache-4,200,OK,http-perfsuite-v1 1-1,bin,true,,31518,702,1,1,https://buggy.justtestit.org/img/spin.gif,5,0,0
+1633982241848,12,get_home_nocache-5,200,OK,http-perfsuite-v1 1-1,text,true,,74841,726,1,1,https://buggy.justtestit.org/js/polyfills.a5856ccaff510c09debf.js,5,0,0
+1633982241860,26,get_home_nocache-6,200,OK,http-perfsuite-v1 1-1,text,true,,174757,723,1,1,https://buggy.justtestit.org/js/vendor.a5856ccaff510c09debf.js,17,0,0
+1633982241886,8,get_home_nocache-7,200,OK,http-perfsuite-v1 1-1,text,true,,44015,720,1,1,https://buggy.justtestit.org/js/app.a5856ccaff510c09debf.js,5,0,0
+1633982241894,4,get_home_cache,200,OK,http-perfsuite-v1 1-1,text,true,,1250,690,1,1,https://buggy.justtestit.org/,4,0,0
+1633982241898,164,api_dashboard,200,OK,http-perfsuite-v1 1-1,text,true,,794,170,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/dashboard,164,0,23
+1633982241780,282,tx-landing,200,"Number of samples in transaction : 5, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,350916,6573,1,1,null,198,1,49
+1633982242063,50,get_make,200,OK,http-perfsuite-v1 1-1,text,true,,1252,741,1,1,https://buggy.justtestit.org/make/c4u1mqnarscc72is00e0,50,0,0
+1633982242113,349,api_make,200,OK,http-perfsuite-v1 1-1,text,true,,3977,708,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/makes/c4u1mqnarscc72is00e0,349,0,0
+1633982242063,399,tx-make,200,"Number of samples in transaction : 2, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,5229,1449,1,1,null,399,1,0
+1633982242463,5,get_model,200,OK,http-perfsuite-v1 1-1,text,true,,1252,765,1,1,https://buggy.justtestit.org/model/c4u1mqnarscc72is00e0%7Cc4u1mqnarscc72is00kg,5,0,0
+1633982242469,325,api_model,200,OK,http-perfsuite-v1 1-1,text,true,,14576,732,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/models/c4u1mqnarscc72is00e0%7Cc4u1mqnarscc72is00kg,324,0,0
+1633982242463,330,tx-model,200,"Number of samples in transaction : 2, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,15828,1497,1,1,null,329,1,0
+1633982242794,4,get_overall,200,OK,http-perfsuite-v1 1-1,text,true,,1252,723,1,1,https://buggy.justtestit.org/overall,4,0,0
+1633982242799,324,api_overall_page,200,OK,http-perfsuite-v1 1-1,text,true,,3017,637,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/models?page=1%20,323,0,0
+1633982242794,328,tx-overall,200,"Number of samples in transaction : 2, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,4269,1360,1,1,null,327,1,0
+1633982243123,9,vars-overwrite,200,OK,http-perfsuite-v1 1-1,text,true,,0,0,1,1,null,0,0,0
+1633982243133,134,get_register,200,OK,http-perfsuite-v1 1-1,text,true,,1252,765,1,1,https://buggy.justtestit.org/model/c4u1mqnarscc72is00e0%7Cc4u1mqnarscc72is00kg,134,0,0
+1633982243267,99,api_reg_users_init,200,OK,http-perfsuite-v1 1-1,text,true,,550,583,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users,99,0,0
+1633982243366,272,api_reg_users,201,Created,http-perfsuite-v1 1-1,text,true,,566,843,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users,272,0,0
+1633982243639,391,api_login_auth,200,OK,http-perfsuite-v1 1-1,text,true,,3447,766,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/oauth/token,391,0,0
+1633982244031,113,api_login_opt,200,OK,http-perfsuite-v1 1-1,text,true,,550,591,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users/current,113,0,0
+1633982244144,176,api_login_current,200,OK,http-perfsuite-v1 1-1,text,true,,628,1708,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users/current,176,0,0
+1633982243639,680,tx-login-new,200,"Number of samples in transaction : 3, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,4625,3065,1,1,null,680,1,0
+1633982243123,1194,tx-register,200,"Number of samples in transaction : 7, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,6993,5256,1,1,null,1185,3,0
+1633982244320,46,get_model,200,OK,http-perfsuite-v1 1-1,text,true,,1252,765,1,1,https://buggy.justtestit.org/model/c4u1mqnarscc72is00e0%7Cc4u1mqnarscc72is00kg,46,0,0
+1633982244367,373,api_model,200,OK,http-perfsuite-v1 1-1,text,true,,14576,732,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/models/c4u1mqnarscc72is00e0%7Cc4u1mqnarscc72is00kg,373,0,0
+1633982244741,38,api_vote_opt,200,OK,http-perfsuite-v1 1-1,text,true,,550,647,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/models/c4u1mqnarscc72is00e0%7Cc4u1mqnarscc72is00kg/vote,38,0,0
+1633982244787,215,api_vote_submit,200,OK,http-perfsuite-v1 1-1,text,true,,561,1835,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/models/c4u1mqnarscc72is00e0%7Cc4u1mqnarscc72is00kg/vote,215,0,0
+1633982244320,672,tx-vote,200,"Number of samples in transaction : 4, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,16939,3979,1,1,null,672,10,0
+1633982245003,23,globals,200,OK,http-perfsuite-v1 1-1,text,true,,0,0,1,1,null,0,0,0
+1633982245026,16,runtime-controller,200,OK,http-perfsuite-v1 1-1,text,true,,0,0,1,1,null,0,0,0
+1633982245043,260,get_home_nocache,200,OK,http-perfsuite-v1 1-1,text,true,,348879,5713,1,1,https://buggy.justtestit.org/,183,0,26
+1633982245043,183,get_home_nocache-0,200,OK,http-perfsuite-v1 1-1,text,true,,1257,690,1,1,https://buggy.justtestit.org/,183,0,26
+1633982245227,3,get_home_nocache-1,200,OK,http-perfsuite-v1 1-1,bin,true,,3770,705,1,1,https://buggy.justtestit.org/img/favicon.ico,3,0,0
+1633982245230,7,get_home_nocache-2,200,OK,http-perfsuite-v1 1-1,text,true,,17723,725,1,1,https://buggy.justtestit.org/css/vendor.a5856ccaff510c09debf.css,6,0,0
+1633982245237,4,get_home_nocache-3,200,OK,http-perfsuite-v1 1-1,text,true,,998,722,1,1,https://buggy.justtestit.org/css/app.a5856ccaff510c09debf.css,4,0,0
+1633982245241,7,get_home_nocache-4,200,OK,http-perfsuite-v1 1-1,bin,true,,31518,702,1,1,https://buggy.justtestit.org/img/spin.gif,6,0,0
+1633982245249,14,get_home_nocache-5,200,OK,http-perfsuite-v1 1-1,text,true,,74841,726,1,1,https://buggy.justtestit.org/js/polyfills.a5856ccaff510c09debf.js,6,0,0
+1633982245263,30,get_home_nocache-6,200,OK,http-perfsuite-v1 1-1,text,true,,174757,723,1,1,https://buggy.justtestit.org/js/vendor.a5856ccaff510c09debf.js,21,0,0
+1633982245293,10,get_home_nocache-7,200,OK,http-perfsuite-v1 1-1,text,true,,44015,720,1,1,https://buggy.justtestit.org/js/app.a5856ccaff510c09debf.js,6,0,0
+1633982245303,4,get_home_cache,200,OK,http-perfsuite-v1 1-1,text,true,,1250,690,1,1,https://buggy.justtestit.org/,4,0,0
+1633982245308,177,api_dashboard,200,OK,http-perfsuite-v1 1-1,text,true,,794,170,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/dashboard,177,0,21
+1633982245042,441,tx-landing,200,"Number of samples in transaction : 5, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,350923,6573,1,1,null,364,2,47
+1633982245485,5,get_make,200,OK,http-perfsuite-v1 1-1,text,true,,1252,741,1,1,https://buggy.justtestit.org/make/c4u1mqnarscc72is00e0,5,0,0
+1633982245490,375,api_make,200,OK,http-perfsuite-v1 1-1,text,true,,3977,708,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/makes/c4u1mqnarscc72is00e0,373,0,0
+1633982245485,380,tx-make,200,"Number of samples in transaction : 2, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,5229,1449,1,1,null,378,0,0
+1633982245866,7,get_model,200,OK,http-perfsuite-v1 1-1,text,true,,1252,765,1,1,https://buggy.justtestit.org/model/c4u1mqnarscc72is00e0%7Cc4u1mqnarscc72is00kg,7,0,0
+1633982245874,267,api_model,200,OK,http-perfsuite-v1 1-1,text,true,,14662,732,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/models/c4u1mqnarscc72is00e0%7Cc4u1mqnarscc72is00kg,266,0,0
+1633982245865,274,tx-model,200,"Number of samples in transaction : 2, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,15914,1497,1,1,null,273,3,0
+1633982246142,46,get_overall,200,OK,http-perfsuite-v1 1-1,text,true,,1252,723,1,1,https://buggy.justtestit.org/overall,46,0,0
+1633982246188,354,api_overall_page,200,OK,http-perfsuite-v1 1-1,text,true,,3017,637,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/models?page=1%20,353,0,0
+1633982246142,400,tx-overall,200,"Number of samples in transaction : 2, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,4269,1360,1,1,null,399,0,0
+1633982246542,9,globals,200,OK,http-perfsuite-v1 1-1,text,true,,0,0,1,1,null,0,0,0
+1633982246551,14,runtime-controller,200,OK,http-perfsuite-v1 1-1,text,true,,0,0,1,1,null,0,0,0
+1633982246566,265,get_home_nocache,200,OK,http-perfsuite-v1 1-1,text,true,,348879,5713,1,1,https://buggy.justtestit.org/,185,0,26
+1633982246566,185,get_home_nocache-0,200,OK,http-perfsuite-v1 1-1,text,true,,1257,690,1,1,https://buggy.justtestit.org/,185,0,26
+1633982246753,7,get_home_nocache-1,200,OK,http-perfsuite-v1 1-1,bin,true,,3770,705,1,1,https://buggy.justtestit.org/img/favicon.ico,7,0,0
+1633982246760,11,get_home_nocache-2,200,OK,http-perfsuite-v1 1-1,text,true,,17723,725,1,1,https://buggy.justtestit.org/css/vendor.a5856ccaff510c09debf.css,10,0,0
+1633982246772,4,get_home_nocache-3,200,OK,http-perfsuite-v1 1-1,text,true,,998,722,1,1,https://buggy.justtestit.org/css/app.a5856ccaff510c09debf.css,4,0,0
+1633982246776,7,get_home_nocache-4,200,OK,http-perfsuite-v1 1-1,bin,true,,31518,702,1,1,https://buggy.justtestit.org/img/spin.gif,5,0,0
+1633982246783,12,get_home_nocache-5,200,OK,http-perfsuite-v1 1-1,text,true,,74841,726,1,1,https://buggy.justtestit.org/js/polyfills.a5856ccaff510c09debf.js,6,0,0
+1633982246796,26,get_home_nocache-6,200,OK,http-perfsuite-v1 1-1,text,true,,174757,723,1,1,https://buggy.justtestit.org/js/vendor.a5856ccaff510c09debf.js,17,0,0
+1633982246822,9,get_home_nocache-7,200,OK,http-perfsuite-v1 1-1,text,true,,44015,720,1,1,https://buggy.justtestit.org/js/app.a5856ccaff510c09debf.js,6,0,0
+1633982246831,5,get_home_cache,200,OK,http-perfsuite-v1 1-1,text,true,,1250,690,1,1,https://buggy.justtestit.org/,5,0,0
+1633982246837,122,api_dashboard,200,OK,http-perfsuite-v1 1-1,text,true,,794,170,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/dashboard,122,0,21
+1633982246565,392,tx-landing,200,"Number of samples in transaction : 5, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,350923,6573,1,1,null,312,4,47
+1633982246961,337,api_login_auth,200,OK,http-perfsuite-v1 1-1,text,true,,3445,759,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/oauth/token,336,0,0
+1633982247299,113,api_login_opt,200,OK,http-perfsuite-v1 1-1,text,true,,550,591,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users/current,113,0,0
+1633982247412,175,api_login_current,200,OK,http-perfsuite-v1 1-1,text,true,,618,1707,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users/current,175,0,0
+1633982246961,625,tx-login-existing,200,"Number of samples in transaction : 3, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,4613,3057,1,1,null,624,1,0
+1633982247587,48,get_make,200,OK,http-perfsuite-v1 1-1,text,true,,1252,741,1,1,https://buggy.justtestit.org/make/c4u1mqnarscc72is00e0,48,0,0
+1633982247635,387,api_make,200,OK,http-perfsuite-v1 1-1,text,true,,3977,708,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/makes/c4u1mqnarscc72is00e0,386,0,0
+1633982247587,435,tx-make,200,"Number of samples in transaction : 2, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,5229,1449,1,1,null,434,0,0
+1633982248022,313,get_model,200,OK,http-perfsuite-v1 1-1,text,true,,1252,765,1,1,https://buggy.justtestit.org/model/c4u1mqnarscc72is00e0%7Cc4u1mqnarscc72is00kg,313,0,0
+1633982248335,247,api_model,200,OK,http-perfsuite-v1 1-1,text,true,,14662,732,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/models/c4u1mqnarscc72is00e0%7Cc4u1mqnarscc72is00kg,246,0,0
+1633982248022,560,tx-model,200,"Number of samples in transaction : 2, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,15914,1497,1,1,null,559,0,0
+1633982248583,5,get_overall,200,OK,http-perfsuite-v1 1-1,text,true,,1252,723,1,1,https://buggy.justtestit.org/overall,5,0,0
+1633982248588,458,api_overall_page,200,OK,http-perfsuite-v1 1-1,text,true,,3017,637,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/models?page=1%20,458,0,0
+1633982248582,463,tx-overall,200,"Number of samples in transaction : 2, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,4269,1360,1,1,null,463,1,0
+1633982249046,10,globals,200,OK,http-perfsuite-v1 1-1,text,true,,0,0,1,1,null,0,0,0
+1633982249056,14,runtime-controller,200,OK,http-perfsuite-v1 1-1,text,true,,0,0,1,1,null,0,0,0
+1633982249071,73,get_home_cache,200,OK,http-perfsuite-v1 1-1,text,true,,1257,688,1,1,https://buggy.justtestit.org/,73,0,31
+1633982249145,183,api_dashboard,200,OK,http-perfsuite-v1 1-1,text,true,,794,170,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/dashboard,183,0,22
+1633982249070,256,tx-landing,200,"Number of samples in transaction : 4, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,2051,858,1,1,null,256,4,53
+1633982249331,356,api_login_auth,200,OK,http-perfsuite-v1 1-1,text,true,,3438,760,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/oauth/token,356,0,0
+1633982249688,100,api_login_opt,200,OK,http-perfsuite-v1 1-1,text,true,,550,591,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users/current,100,0,0
+1633982249789,121,api_login_current,200,OK,http-perfsuite-v1 1-1,text,true,,614,1702,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users/current,121,0,0
+1633982249330,577,tx-login-existing,200,"Number of samples in transaction : 3, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,4602,3053,1,1,null,577,3,0
+1633982249910,7,get_make,200,OK,http-perfsuite-v1 1-1,text,true,,1252,739,1,1,https://buggy.justtestit.org/make/c4u1mqnarscc72is00e0,7,0,0
+1633982249918,288,api_make,200,OK,http-perfsuite-v1 1-1,text,true,,3977,708,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/makes/c4u1mqnarscc72is00e0,288,0,0
+1633982249910,295,tx-make,200,"Number of samples in transaction : 2, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,5229,1447,1,1,null,295,2,0
+1633982250207,173,get_model,200,OK,http-perfsuite-v1 1-1,text,true,,1252,763,1,1,https://buggy.justtestit.org/model/c4u1mqnarscc72is00e0%7Cc4u1mqnarscc72is00kg,173,0,0
+1633982250381,317,api_model,200,OK,http-perfsuite-v1 1-1,text,true,,14662,732,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/models/c4u1mqnarscc72is00e0%7Cc4u1mqnarscc72is00kg,311,0,0
+1633982250207,490,tx-model,200,"Number of samples in transaction : 2, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,15914,1495,1,1,null,484,2,0
+1633982250699,8,get_overall,200,OK,http-perfsuite-v1 1-1,text,true,,1252,721,1,1,https://buggy.justtestit.org/overall,8,0,0
+1633982250707,335,api_overall_page,200,OK,http-perfsuite-v1 1-1,text,true,,3017,635,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/models?page=1%20,335,0,0
+1633982250699,343,tx-overall,200,"Number of samples in transaction : 2, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,4269,1356,1,1,null,343,0,0
+1633982251042,9,globals,200,OK,http-perfsuite-v1 1-1,text,true,,0,0,1,1,null,0,0,0
+1633982251051,14,runtime-controller,200,OK,http-perfsuite-v1 1-1,text,true,,0,0,1,1,null,0,0,0
+1633982251065,272,get_home_nocache,200,OK,http-perfsuite-v1 1-1,text,true,,348911,5713,1,1,https://buggy.justtestit.org/,199,0,28
+1633982251065,199,get_home_nocache-0,200,OK,http-perfsuite-v1 1-1,text,true,,1257,690,1,1,https://buggy.justtestit.org/,199,0,28
+1633982251265,3,get_home_nocache-1,200,OK,http-perfsuite-v1 1-1,bin,true,,3770,705,1,1,https://buggy.justtestit.org/img/favicon.ico,3,0,0
+1633982251269,6,get_home_nocache-2,200,OK,http-perfsuite-v1 1-1,text,true,,17723,725,1,1,https://buggy.justtestit.org/css/vendor.a5856ccaff510c09debf.css,5,0,0
+1633982251275,4,get_home_nocache-3,200,OK,http-perfsuite-v1 1-1,text,true,,998,722,1,1,https://buggy.justtestit.org/css/app.a5856ccaff510c09debf.css,4,0,0
+1633982251279,8,get_home_nocache-4,200,OK,http-perfsuite-v1 1-1,bin,true,,31518,702,1,1,https://buggy.justtestit.org/img/spin.gif,6,0,0
+1633982251287,13,get_home_nocache-5,200,OK,http-perfsuite-v1 1-1,text,true,,74841,726,1,1,https://buggy.justtestit.org/js/polyfills.a5856ccaff510c09debf.js,6,0,0
+1633982251300,28,get_home_nocache-6,200,OK,http-perfsuite-v1 1-1,text,true,,174789,723,1,1,https://buggy.justtestit.org/js/vendor.a5856ccaff510c09debf.js,19,0,0
+1633982251328,9,get_home_nocache-7,200,OK,http-perfsuite-v1 1-1,text,true,,44015,720,1,1,https://buggy.justtestit.org/js/app.a5856ccaff510c09debf.js,6,0,0
+1633982251337,168,api_dashboard,200,OK,http-perfsuite-v1 1-1,text,true,,794,170,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/dashboard,168,0,22
+1633982251065,440,tx-landing,200,"Number of samples in transaction : 4, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,349705,5883,1,1,null,367,1,50
+1633982251507,159,get_make,200,OK,http-perfsuite-v1 1-1,text,true,,1252,741,1,1,https://buggy.justtestit.org/make/c4u1mqnarscc72is00e0,159,0,0
+1633982251667,320,api_make,200,OK,http-perfsuite-v1 1-1,text,true,,3977,708,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/makes/c4u1mqnarscc72is00e0,319,0,0
+1633982251506,479,tx-make,200,"Number of samples in transaction : 2, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,5229,1449,1,1,null,478,2,0
+1633982251987,8,get_model,200,OK,http-perfsuite-v1 1-1,text,true,,1252,765,1,1,https://buggy.justtestit.org/model/c4u1mqnarscc72is00e0%7Cc4u1mqnarscc72is00kg,8,0,0
+1633982251996,339,api_model,200,OK,http-perfsuite-v1 1-1,text,true,,14662,732,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/models/c4u1mqnarscc72is00e0%7Cc4u1mqnarscc72is00kg,337,0,0
+1633982251987,347,tx-model,200,"Number of samples in transaction : 2, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,15914,1497,1,1,null,345,1,0
+1633982252335,45,get_overall,200,OK,http-perfsuite-v1 1-1,text,true,,1252,723,1,1,https://buggy.justtestit.org/overall,45,0,0
+1633982252380,403,api_overall_page,200,OK,http-perfsuite-v1 1-1,text,true,,3017,637,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/models?page=1%20,403,0,0
+1633982252335,448,tx-overall,200,"Number of samples in transaction : 2, number of failing samples : 0",http-perfsuite-v1 1-1,,true,,4269,1360,1,1,null,448,0,0
+1633982252783,8,vars-overwrite,200,OK,http-perfsuite-v1 1-1,text,true,,0,0,1,1,null,0,0,0
+1633982252791,4,get_register,200,OK,http-perfsuite-v1 1-1,text,true,,1252,765,1,1,https://buggy.justtestit.org/model/c4u1mqnarscc72is00e0%7Cc4u1mqnarscc72is00kg,4,0,0
+1633982252795,102,api_reg_users_init,200,OK,http-perfsuite-v1 1-1,text,true,,550,583,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users,102,0,0
+1633982252897,232,api_reg_users,201,Created,http-perfsuite-v1 1-1,text,true,,566,843,1,1,https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users,232,0,0

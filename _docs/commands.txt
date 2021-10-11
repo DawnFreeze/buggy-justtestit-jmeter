@@ -1,0 +1,7 @@
+NOTE: adjust relative paths based on your $pwd
+
+TEST RUN:
+..\..\apache-jmeter-5.4.1\bin\jmeter -n -t buggy.justtestit.opg.jmx -l .\reporting\res_out.jtl -j .\logs\run.log
+
+GENERATE REPORT:
+..\..\apache-jmeter-5.4.1\bin\jmeter -g .\reporting\res_out.jtl -o .\reporting\report
