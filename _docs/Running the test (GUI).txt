@@ -3,4 +3,4 @@ How to run test (Windows):
 2. download JMeter and unzip content locally (link in README.md)
 3. navigate to the bin folder, and run the 'jmeter.bat' batch file
 4. once the GUI loads, import the project buggy.justtestit.opg.jmx
-5. click the 'play' button and observethe traffic from the monitor sampler
+5. click the 'play' button and observe the traffic from the monitor sampler
