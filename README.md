@@ -4,8 +4,7 @@
 A simple JMeter template targeting the the website buggy.justtestit.org
 
 ## Resources
-Developed against JMeter 5.4.1 
-Download link: https://jmeter.apache.org/download_jmeter.cgi
+Developed against JMeter 5.4.1 (download link: https://jmeter.apache.org/download_jmeter.cgi)
 
 ## CLI commands
 Test run:
