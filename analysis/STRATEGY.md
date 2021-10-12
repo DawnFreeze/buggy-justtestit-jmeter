@@ -37,10 +37,10 @@ Target user base: 2.1 Million Registered Users
 
 ![buggy justtestit-DB-Projection-MOCK](https://user-images.githubusercontent.com/6401440/136873665-92d2dae7-dc58-43e1-ac02-f35ce084c971.JPG)
 
-**1.3 Performance Lab Infrastructure**
+**1.3 Performance Lab Infrastructure**  
 [TBD] *Present infrastructure diagram and machine specification of hardware/cloud performacne lab environment)
 
-**1.4 Server-side analysis**
+**1.4 Server-side analysis**  
 [TBD] *Present tools being used for server-side metric capture and reporting*
 
 ---
