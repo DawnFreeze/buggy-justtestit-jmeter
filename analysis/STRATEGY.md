@@ -8,6 +8,10 @@ This document is to sumamrize the test cases, requirements, observations, and ob
 **1.2 Performace SLA**
 *[TODO: production analysis, currently using placeholders]*
 
+Metric Definitions:
+RPS = Server-side calculation of backend processing (ex: perfmon-ASP.NET / counter-Requests/Sec / instance-__TOTAL__)
+Response Time = End-to-End processing time for client request/transaction
+
 Client Web Transaction SLA (pages):
 | Route | Path | Metric (sec) |
 | ----------- | ----------- | ----------- |
@@ -30,10 +34,7 @@ Database Requirements:
 Baseline user base:1.4 Million Registered Users
 Target user base: 2.1 Million Registered Users
 
-![buggy justtestit-DB-Projection-MOCK](https://user-images.githubusercontent.com/6401440/136873147-5ee7ed14-657e-4610-a8a7-2dfb4718c557.JPG)
-
-Metric Definitions:
-RPS = 
+![buggy justtestit-DB-Projection-MOCK](https://user-images.githubusercontent.com/6401440/136873665-92d2dae7-dc58-43e1-ac02-f35ce084c971.JPG)
 
 **1.3 Performance Lab Infrastructure**
 [TBD]
