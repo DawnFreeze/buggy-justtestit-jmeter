@@ -1,6 +1,6 @@
 ## Functional bugs observed during test development / manual testing
   
-###Functional:
+### Functional:
 
 **Title:** Misleading UI behaviour  
 **Category:** Broken Functionality / UX odd behaviour  
