@@ -9,8 +9,8 @@ This document is to sumamrize the test cases, requirements, observations, and ob
 [TBD] *Production metrics required, currently using placeholders*
 
 ***Metric Definitions:***  
-**RPS** = Server-side calculation of backend processing (ex: perfmon-ASP.NET / counter-Requests/Sec / instance-__TOTAL__)
-Response Time** = End-to-End processing time for client request/transaction
+**RPS** = Server-side calculation of backend processing (ex: perfmon-ASP.NET / counter-Requests/Sec / instance-__TOTAL__)  
+**Response Time** = End-to-End processing time for client request/transaction
 
 Client Web Transaction SLA (pages):
 | Route | Path | Metric (sec) |
