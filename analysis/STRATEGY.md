@@ -9,7 +9,7 @@ This document is to sumamrize the test cases, requirements, observations, and ob
 [TBD] *Production metrics required, currently using placeholders*
 
 ***Metric Definitions:***  
-**RPS** = Server-side calculation of backend processing (ex: perfmon-ASP.NET / counter-Requests/Sec / instance-__TOTAL__)  
+**RPS** = Server-side calculation of backend processing (ex: perfmon-ASP.NET / counter-Requests/Sec / instance-&#95;&#95;TOTAL&#95;&#95;)  
 **Response Time** = End-to-End processing time for client request/transaction
 
 Client Web Transaction SLA (pages):
@@ -38,7 +38,7 @@ Target user base: 2.1 Million Registered Users
 ![buggy justtestit-DB-Projection-MOCK](https://user-images.githubusercontent.com/6401440/136873665-92d2dae7-dc58-43e1-ac02-f35ce084c971.JPG)
 
 **1.3 Performance Lab Infrastructure**  
-[TBD] *Present infrastructure diagram and machine specification of hardware/cloud performacne lab environment)
+[TBD] *Present infrastructure diagram and machine specification of hardware/cloud performacne lab environment*
 
 **1.4 Server-side analysis**  
 [TBD] *Present tools being used for server-side metric capture and reporting*
