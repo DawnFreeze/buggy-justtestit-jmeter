@@ -31,9 +31,9 @@ Client Web Transaction SLA (transactions):
   
 Target RPS: *3500* 
 
-Database Requirements:
-Baseline user base:1.4 Million Registered Users
-Target user base: 2.1 Million Registered Users
+Database Requirements:  
+Baseline user base: *1.4 Million Registered Users*  
+Target user base: *2.1 Million Registered Users*  
 
 ![buggy justtestit-DB-Projection-MOCK](https://user-images.githubusercontent.com/6401440/136873665-92d2dae7-dc58-43e1-ac02-f35ce084c971.JPG)
 
