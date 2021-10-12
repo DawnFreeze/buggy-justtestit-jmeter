@@ -1,7 +1,7 @@
 
 ### [PERFORMANCE] Release Strategy - [buggy.justtestit](https://buggy.justtestit.org)
 ---
-### 1. Executive Summary
+> 1. Executive Summary
 **1.1 Overview**
 This document is to sumamrize the test cases, requirements, observations, and objectives of the performance testing phace for the public website 'buggy.justtestit.org'
 
@@ -9,8 +9,8 @@ This document is to sumamrize the test cases, requirements, observations, and ob
 [TBD] *Production metrics required, currently using placeholders*
 
 ***Metric Definitions:***
-RPS = Server-side calculation of backend processing (ex: perfmon-ASP.NET / counter-Requests/Sec / instance-__TOTAL__)
-Response Time = End-to-End processing time for client request/transaction
+**RPS** = Server-side calculation of backend processing (ex: perfmon-ASP.NET / counter-Requests/Sec / instance-__TOTAL__)
+Response Time** = End-to-End processing time for client request/transaction
 
 Client Web Transaction SLA (pages):
 | Route | Path | Metric (sec) |
@@ -44,7 +44,7 @@ Target user base: 2.1 Million Registered Users
 [TBD] *Present tools being used for server-side metric capture and reporting*
 
 ---
-### 2. Test scenarios
+> 2. Test scenarios
 **2.1 Baseline**  
 [TBD] *Present baseline test results and observations*
 
@@ -63,21 +63,21 @@ Target user base: 2.1 Million Registered Users
 
 **2.3 Performance run outline**  
 
-####Peak Efficiency
+#### Peak Efficiency
 *Identify maximum operational capacity*
- - **Ramp-up**: 30 minutes
- - **Peak load**: 3300 virtual users
- - **Duration**: 6 hours
+- [ ] **Ramp-up**: 30 minutes
+- [ ] **Peak load**: 3300 virtual users
+- [ ] **Duration**: 6 hours
 
-####Endurance/Stress test
+#### Endurance/Stress test
 *Production volume replication, sustained for 36 hours*
- - **Ramp-up**: 30 minutes
- - **Peak load**: 1200 virtual users
- - **Duration**: 36 hours
+- [ ] **Ramp-up**: 30 minutes
+- [ ] **Peak load**: 1200 virtual users
+- [ ] **Duration**: 36 hours
 
-####Network latency test
- - **Ramp-up**: 30 minutes
- - **Peak load**: 3300 virtual users
- - **Duration**: 2 hours
- - **Backend Latency**: 1.5 second network lag for 5 minutes @ 1 hour mark
+#### Network latency test
+- [ ] **Ramp-up**: 30 minutes
+- [ ] **Peak load**: 3300 virtual users
+- [ ] **Duration**: 2 hours
+- [ ] **Backend Latency**: 1.5 second network lag for 5 minutes @ 1 hour mark
 ---
