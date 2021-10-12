@@ -2,13 +2,13 @@
 ### [PERFORMANCE] Release Strategy - [buggy.justtestit](https://buggy.justtestit.org)
 ---
 ### 1. Executive Summary  
-**1.1 Overview**
+**1.1 Overview**  
 This document is to sumamrize the test cases, requirements, observations, and objectives of the performance testing phace for the public website 'buggy.justtestit.org'
 
 **1.2 Performace SLA**  
 [TBD] *Production metrics required, currently using placeholders*
 
-***Metric Definitions:***
+***Metric Definitions:***  
 **RPS** = Server-side calculation of backend processing (ex: perfmon-ASP.NET / counter-Requests/Sec / instance-__TOTAL__)
 Response Time** = End-to-End processing time for client request/transaction
 
